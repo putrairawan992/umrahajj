@@ -150,15 +150,10 @@ font-size: 20px;
   background-image: url("../images/background_putihmiring2.png");
   background-repeat: no-repeat;
   background-size: cover;
-  height: 20vh;
+  height: 25vh;
   margin-top: -6.6em;
   position: relative;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-flow: row wrap;
-  flex-flow: row wrap;
-  -ms-flex-line-pack: start;
-  align-content: flex-start;
+background-attachment: fixed;
 }
 
 .content-home-text {

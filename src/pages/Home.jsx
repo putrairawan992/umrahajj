@@ -63,7 +63,7 @@ class Home extends Component {
       },
 
       method: "GET",
-      url: "https://api.modestravel.com/utils/home_slider",
+      url: "http://api.modestravel.com/utils/home_slider",
 
     }).then(response => {
 
