@@ -719,11 +719,12 @@ width: 100%;
 /*----------------- START FOOTER CSS -----------------*/
 
 .footer {
-  background: url("../images/Footer.png");
+  background: url("../images/footer.png");
   background-size: cover;
   background-repeat: no-repeat;
   margin-top: 15px;
 }
+
 
 .menufirst1 .menu22 img {
 width: 120px;
