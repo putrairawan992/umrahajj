@@ -55,7 +55,7 @@ class Loginuser extends Component {
             password: this.state.password
         };
 
-        axios.post('https://api.umrahajj.co/customers/login', user)
+        axios.post('https://api.modestravel.com/customers/login', user)
           .then((response) => {
               if(response.data.status) {
 

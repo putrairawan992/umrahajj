@@ -25,7 +25,7 @@ class Contact extends Component {
                 <b>Umrahajj</b>
                 <p>Segitiga Emas Business Park, Jalan Prof. Dr. Satrio, Kuningan,<br/> ID 12940
                     <br/>+62 345 678 903<br/>
-					info@umrahajj.co</p>
+					info@modestravel.com</p>
 					
             </Col>
             <Col md="6">

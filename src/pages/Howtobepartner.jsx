@@ -66,7 +66,7 @@ class Howtobepartner extends React.Component {
                             <p>1. UmraHajj reach Millennials as new market user to contribute Umrah pilgrim to the next level.</p>
                             <p>2. As an UmraHajj for all, UmraHajj come to be daily #YourHijraPartner anytime and anywhere.</p>
                             <p>3. In this digital era, UmraHajj reach the new business with one stop solution to make Umrah Travel and User easily connected.</p>
-                            <a href="https://partner.umrahajj.co/#/?signup=home">
+                            <a href="https://partner.modestravel.com/#/?signup=home">
 				            <button type="button" className="btn-howtobepartner-text ">I want to join</button></a>
 				            <button type="button" className="btn-howtobepartner-text1 ">I will thinking it</button>
                         </Col>

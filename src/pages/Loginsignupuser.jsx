@@ -40,7 +40,7 @@ class Loginsignupuser extends Component {
                 password: this.state.password
             };
 
-            axios.post('https://api.umrahajj.co/customers/preregister', newUser )
+            axios.post('https://api.modestravel.com/customers/preregister', newUser )
               .then((response) => {
                   if(response.data.status) {
                     // Do something!

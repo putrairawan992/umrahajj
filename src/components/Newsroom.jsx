@@ -47,7 +47,7 @@ class Newsroom extends React.Component {
     fetchFromApi() {
         axios({
             method: 'GET',
-            url: 'http:/umrahajj.co/blog/wp-json/wp/v2/posts?page=1',
+            url: 'http:/modestravel.com/blog/wp-json/wp/v2/posts?page=1',
         }).then(res => {
             this.setState({
                 posts: [...res.data],
@@ -114,7 +114,7 @@ class Newsroom extends React.Component {
               <div className="newsroom-content1 homepage-newsroom hidden-lg hidden-md hidden-sm">
                 <h3>Newsroom</h3>
                   {cards}
-                  <NavLink className="navbar-brand2" href="https://umrahajj.co/blog" target="blank"><Button type="Button" className="btn newsroom-btn">see all</Button></NavLink>
+                  <NavLink className="navbar-brand2" href="http://modestravel.com/blog" target="blank"><Button type="Button" className="btn newsroom-btn">see all</Button></NavLink>
               </div>
         
               </Col> 

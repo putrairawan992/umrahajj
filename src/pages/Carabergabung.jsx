@@ -60,7 +60,7 @@ class Carabergabung extends React.Component {
                     <Col md="12">
                         <div className="aturan-pengguna carabergabung">
                             <h3>Cara Bergabung</h3>
-                                <p>Untuk bergabung menjadi mitra (partner) UmraHajj dapat langsung klik link berikut : <a href="https://partner.umrahajj.co/#/?signup=home" target="blank">https://partner.umrahajj.co/#/?signup=home</a>. Setelah masuk pada halaman pendaftaran anda cukup isikan formulir yang tersedia, berupa email, nama travel, nama pic dan nomor telepon. Cek email inbox anda dan ikuti langkah-langkah selanjutnya. Kami telah membuat panduan langkah-langkah mendaftar sebagai partner, bisa diakses melalui <a href="http://bit.ly/2n6vaYv" target="blank">http://bit.ly/2n6vaYv</a>.</p>
+                                <p>Untuk bergabung menjadi mitra (partner) UmraHajj dapat langsung klik link berikut : <a href="https://partner.modestravel.com/#/?signup=home" target="blank">https://partner.modestravel.com/#/?signup=home</a>. Setelah masuk pada halaman pendaftaran anda cukup isikan formulir yang tersedia, berupa email, nama travel, nama pic dan nomor telepon. Cek email inbox anda dan ikuti langkah-langkah selanjutnya. Kami telah membuat panduan langkah-langkah mendaftar sebagai partner, bisa diakses melalui <a href="http://bit.ly/2n6vaYv" target="blank">http://bit.ly/2n6vaYv</a>.</p>
                         <Row className="cara-bergabung1">
                         <Col md="3">       
 

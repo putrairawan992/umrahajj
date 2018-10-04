@@ -96,7 +96,7 @@ class Tombolmenu extends React.Component {
                   <NavLink className="navbar-brand3" tag={Link} to="/loginuser"><img src={require("../images/Line_35.png")} className="line_login"/> <img src={require("../images/login_dashboard.png")}/>Login</NavLink>
                 )}
 
-                  <NavLink className="navbar-brand2" href="https://partner.umrahajj.co/#/?signup=home"><Button type="button" className="btn2 btn">Join as Partner</Button></NavLink>
+                  <NavLink className="navbar-brand2" href="https://partner.modestravel.com/#/?signup=home"><Button type="button" className="btn2 btn">Join as Partner</Button></NavLink>
 
                     <div style={styles}>
                       <div className="menu-home">
