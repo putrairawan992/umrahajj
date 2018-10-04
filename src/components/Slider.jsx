@@ -134,6 +134,7 @@ render() {
   }
     return (
 
+<<<<<<< HEAD
       <Container fluid>
       <Row>
         <div className="slider-content-home">
@@ -156,6 +157,32 @@ render() {
         </div>
       </Row>
   </Container>
+=======
+    <Container fluid>
+      <Row> 
+            <div className="slider-content-home">
+              <style>
+                {
+                  `.custom-tag {
+                    width: 100%;
+                    background: black;
+                    }`
+                }
+              </style>
+              <Carousel
+                activeIndex={activeIndex}
+                next={this.next}
+                previous={this.previous}
+              >
+                <CarouselIndicators items={items} activeIndex={activeIndex} onClickHandler={this.goToIndex} />
+                {slides}
+              
+              </Carousel>
+              
+            </div>
+        </Row>
+      </Container>
+>>>>>>> 084e5b7752129690472e452ea2031fa2e8f19f20
     );
     
   }
