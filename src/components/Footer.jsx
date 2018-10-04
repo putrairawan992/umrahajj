@@ -169,11 +169,7 @@ class Footer extends Component {
 							</div>
             </Col>
             <Col xs="12" lg="12" className="footer-bottom ">
-<<<<<<< HEAD
                   <p> www.modestravel.com &copy; Modestravel 2018</p>
-=======
-                  <p> www.modestravel.com &copy; Umrahajj 2018</p>
->>>>>>> 084e5b7752129690472e452ea2031fa2e8f19f20
             </Col>
           </Row>
         </Container>
