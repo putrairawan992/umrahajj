@@ -213,7 +213,7 @@ class Home extends Component {
                           <Col md="6" xs="12" lg="6" sm="12">
                           <hr className="garis_featured"/>
                           <br/>
-                                <b> FEATUR</b><b>ED</b> 
+                                <b className="header-jumbotron-text"> FEATUR</b><b b className="header-jumbotron-text">ED</b> 
                             <div className="device-featured">
                               
                                   <div className="device wp3 animated bounceInDown">

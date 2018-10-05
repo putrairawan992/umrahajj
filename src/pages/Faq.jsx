@@ -35,7 +35,7 @@ export default class Faq extends React.Component {
            className={classnames({ active: this.state.activeTab === '4' })}
            onClick={() => { this.toggle('4'); }}
          >
-           Tentang Umrahajj
+           Tentang Modestravel
          </NavLink>
        </NavItem>
      <NavItem>
@@ -68,8 +68,8 @@ export default class Faq extends React.Component {
                 <Row>
                     <Col md="12">
                         <div className="tentang-umrahajj">
-                            <h3>Tentang Umrahajj</h3>
-                                <p>UmraHajj yang didirikan pada tahun 2017 oleh Modest Travel Sdn Bhd Malaysia adalah marketplace yang berbasis mobile apps pertama yang memungkinkan Pengguna untuk membandingkan harga dan fasilitas Umrah dan Haji dari berbagai travel dalam satu aplikasi. Dengan UmraHajj pengguna dapat menyesuaikan paket berdasarkan kebutuhan, seperti mengganti penerbangan, hotel dan lain sebagainya.</p>
+                            <h3>Tentang Modestravel</h3>
+                                <p>Modestravel yang didirikan pada tahun 2017 oleh Modest Travel Sdn Bhd Malaysia adalah marketplace yang berbasis mobile apps pertama yang memungkinkan Pengguna untuk membandingkan harga dan fasilitas Umrah dan Haji dari berbagai travel dalam satu aplikasi. Dengan UmraHajj pengguna dapat menyesuaikan paket berdasarkan kebutuhan, seperti mengganti penerbangan, hotel dan lain sebagainya.</p>
 
                                 <Col md ="6" xs="12">
                                   <video className="video-tentangkami" controls>
@@ -197,25 +197,25 @@ export default class Faq extends React.Component {
                     <div className="ask-group">
     
                     <div className="ask-content1">
-                      <p> Q : Apa itu Umrahajj?</p>
+                      <p> Q : Apa itu Modestravel?</p>
                     </div>
                     <div  className="ask-content2">
-                      <p> A : Umrahajj merupakan sebuah Marketplace Platform berbasis Mobile Application (Android & Ios) untuk Umrah di Indonesia. UmraHajj merupakan sebuah sub-business dari YAZ Ventures SDN BHD yang sudah berpengalaman di dunia bisnis digital.</p>
+                      <p> A : Modestravel merupakan sebuah Marketplace Platform berbasis Mobile Application (Android & Ios) untuk Umrah di Indonesia. UmraHajj merupakan sebuah sub-business dari YAZ Ventures SDN BHD yang sudah berpengalaman di dunia bisnis digital.</p>
                     </div>
                     <div className="ask-content3">
-                      <p>Q : Saya ingin memesan paket Umrah. Apakah Umrahajj menjual paket Umrah?</p>
+                      <p>Q : Saya ingin memesan paket Umrah. Apakah Modestravel menjual paket Umrah?</p>
                     </div> 
                     <div  className="ask-content2">
-                      <p>A : Dengan Umrahajj, anda dapat membandingkan harga paket Umrah dari semua Penyelenggara Perjalanan Ibadah Umrah berizin yang terdaftar di Kementerian Agama. Setelah hasil pencarian keluar, anda dapat memilih Paket yang sesuai dengan kebutuhan Anda dan dapat langsung memesan paket tersebut melalui Umrahajj.co.</p>
+                      <p>A : Dengan Modestravel, anda dapat membandingkan harga paket Umrah dari semua Penyelenggara Perjalanan Ibadah Umrah berizin yang terdaftar di Kementerian Agama. Setelah hasil pencarian keluar, anda dapat memilih Paket yang sesuai dengan kebutuhan Anda dan dapat langsung memesan paket tersebut melalui Umrahajj.co.</p>
                     </div> 
                     <div className="ask-content3">
-                      <p>Q : Bagaimana cara memesan/booking paket Umrah lewat Umrahajj? Apakah saya bisa memesan langsung di kantor Umhrajj? Di mana kantor cabang Umrahajj di kota saya?</p>
+                      <p>Q : Bagaimana cara memesan/booking paket Umrah lewat Modestravel? Apakah saya bisa memesan langsung di kantor Umhrajj? Di mana kantor cabang Umrahajj di kota saya?</p>
                     </div>
                     <div  className="ask-content2">
-                      <p>A : Anda dapat melakukan booking langsung melalui aplikasi UmraHajj yang tersedia untuk pengguna Android & Ios. Setelah melakukan pencarian, anda dapat langsung melakukan pemesanan dengan cara meng-klik tombol Pesan dan kami akan memandu Anda ke halaman pengisian data pemesan hingga melakukan pembayaran. Anda dapat mengunjungi Kantor Umrahajj.co di Jl. ……………</p>
+                      <p>A : Anda dapat melakukan booking langsung melalui aplikasi Modestravel yang tersedia untuk pengguna Android & Ios. Setelah melakukan pencarian, anda dapat langsung melakukan pemesanan dengan cara meng-klik tombol Pesan dan kami akan memandu Anda ke halaman pengisian data pemesan hingga melakukan pembayaran. Anda dapat mengunjungi Kantor Umrahajj.co di Jl. ……………</p>
                     </div>
                     <div className="ask-content3">
-                      <p>Q : Bagaimana cara menghubungi Umrahajj.co?</p>
+                      <p>Q : Bagaimana cara menghubungi Modestravel.com?</p>
                     </div>  
                     <div  className="ask-content2">
                       <p>A : Untuk pertanyaan yang belum terjawab di panduan pemakaian maupun FAQ ini, Anda bisa menghubungi Umrahajj melalui berbagai jalur komunikasi resmi kami, baik melalui email di .......@Umrahajj.co maupun dengan cara menelepon kami, ke nomor ………………………. Untuk informasi lebih Lengkap, anda dapat melihat list kontak yang tersedia di fitur Hubungi Kami.</p>

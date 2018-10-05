@@ -35,7 +35,7 @@ class Aturanpengguna extends React.Component {
                  className={classnames({ active: this.state.activeTab === '4' })}
                  onClick={() => { this.toggle('4'); }}
                >
-                 Tentang Umrahajj
+                 Tentang Modestravel
                </NavLink>
              </NavItem>
            <NavItem>
@@ -68,8 +68,8 @@ class Aturanpengguna extends React.Component {
                 <Row>
                     <Col md="12">
                         <div className="tentang-umrahajj">
-                            <h3>Tentang Umrahajj</h3>
-                                <p>UmraHajj yang didirikan pada tahun 2017 oleh Modest Travel Sdn Bhd Malaysia adalah marketplace yang berbasis mobile apps pertama yang memungkinkan Pengguna untuk membandingkan harga dan fasilitas Umrah dan Haji dari berbagai travel dalam satu aplikasi. Dengan UmraHajj pengguna dapat menyesuaikan paket berdasarkan kebutuhan, seperti mengganti penerbangan, hotel dan lain sebagainya.</p>
+                            <h3>Tentang Modestravel</h3>
+                                <p>Modestravel yang didirikan pada tahun 2017 oleh Modest Travel Sdn Bhd Malaysia adalah marketplace yang berbasis mobile apps pertama yang memungkinkan Pengguna untuk membandingkan harga dan fasilitas Umrah dan Haji dari berbagai travel dalam satu aplikasi. Dengan UmraHajj pengguna dapat menyesuaikan paket berdasarkan kebutuhan, seperti mengganti penerbangan, hotel dan lain sebagainya.</p>
 
                                 <Col md ="6" xs="12">
                                   <video className="video-tentangkami" controls>
@@ -88,7 +88,7 @@ class Aturanpengguna extends React.Component {
                             <h3>Aturan penggunaan</h3>
                                 <p>o	Informasi <br/> Kami mengumpulkan Data Pribadi yang Anda berikan kepada kami saat menggunakan Situs. Data Pribadi Anda bisa termasuk nama, alamat, nomor telepon, akun doku, nomor rekening atau alamat e-mail Anda. Kami juga mengumpulkan informasi yang tak dapat diidentifikasi secara pribadi, yang mungkin tertaut pada Data Pribadi Anda, termasuk alamat IP Anda, serta preferensi pencarian terkait pada pencarian spesifik.</p>
                                 <p>o	Pengguna <br/> Dengan mengakses dan menggunakan bagian apapun dari Layanan ini, Anda akan dianggap telah diterima untuk terikat secara hukum dengan Syarat Penggunaan yang tercantum di sini. Jika Anda tidak menyetujui Ketentuan Penggunaan ini, jangan gunakan aplikasi ini atau Situs web.</p>
-                                <p>o	Transaksi <br/> Semua transaksi yang anda lakukan dijamin aman, karena menggunakan escrow system, yaitu dana tidak disimpan oleh pihak travel umrah, tidak juga oleh umrahajj melainkan Bank, Payment Gateway sebagai pihak ketiga yang terpercaya.</p>
+                                <p>o	Transaksi <br/> Semua transaksi yang anda lakukan dijamin aman, karena menggunakan escrow system, yaitu dana tidak disimpan oleh pihak travel umrah, tidak juga oleh Modestravel melainkan Bank, Payment Gateway sebagai pihak ketiga yang terpercaya.</p>
                                 <p>o	Dilarang <br/> Konten situs web ini tidak boleh direproduksi, dipublikasikan ulang, diunggah, diposting, dikirim atau didistribusikan dengan cara apa pun, tanpa izin sebelumnya dari Modest Travel Sdn Bhd. Untuk menggunakan bagian apa pun dari konten situs web ini, pengguna harus meminta izin secara tertulis, menyatakan konten untuk digunakan; maksud penggunaan; cara penggunaan; kerangka waktu penggunaan dan identitas pengguna. Perjalanan Sederhana Sdn Bhd menyediakan hak tanpa syarat dan mutlak untuk menolak izin tanpa menyatakan alasan (s); dan / atau jika informasi yang disampaikan oleh pengguna dianggap tidak mencukupi</p>
                                 <p>o	Sanksi <br/> Bagi pengguna yang melanggar syarat penggunaan yang tercantum disini Travel Sederhana Sdn Bhd memiliki semua hak untuk menolak atau membatasi akses ke situs web ini kepada orang tertentu, atau untuk memblokir akses dari alamat Internet tertentu ke situs web ini, kapan saja, tanpa menyebutkan alasan apa pun. Dan jika pelanggaran masuk ranah pidana maka akan diproses secara hukum yang berlaku di negara setempat.</p>
                                 <p>o	Hukum yang berlaku dan penyelesaian sengketa <br/>Apabila timbul perselisihkan sehubungan dengan penafsiran dan/atau pelaksanaan dari perjanjian ini maka disepakati untuk menyelesaikan perselisihan dimaksud secara musyawarah. Apabila perselisihan tidak dapat diselesaikan secara musyawarah maka sepakat untuk menyelesaikan berdasarkan hukum yang berlaku di negara setempat.</p>
@@ -124,7 +124,7 @@ class Aturanpengguna extends React.Component {
                 </p>
           
 			      <b>Email Alerts</b> 
-            <p>Umrahajj has an opt-in email alert service which requires your email address to sign up. Your e mail address will only be used for marketing useful information about Umrahajj services and offers. We will not rent, sell or share your e mail address with any third party. You can unsubscribe from our emails anytime by emailing us at unsubscribe@umrahajj.co. If you are unable to do so please email info@umrahajj.co and specify the email address you want removed from our mailing list. never request for your payment details via e mail and we urge you not to send such information via e mail.</p> 
+            <p>Umrahajj has an opt-in email alert service which requires your email address to sign up. Your e mail address will only be used for marketing useful information about Umrahajj services and offers. We will not rent, sell or share your e mail address with any third party. You can unsubscribe from our emails anytime by emailing us at unsubscribe@Modestravel.co. If you are unable to do so please email info@Modestravel.co and specify the email address you want removed from our mailing list. never request for your payment details via e mail and we urge you not to send such information via e mail.</p> 
 
 			<b>•	Data yang kami kumpulkan melalui sumber lainnya:</b> 
       <p>Selain semua jenis informasi yang kami sebutkan di atas, kami mungkin juga mendapatkan info tambahan dari sumber lain. Kami melindungi informasi ini sesuai dengan kebijakan yang dijelaskan dalam pernyataan ini. Semua informasi pendukung ini yang kami kumpulkan dari sumber lain akan digunakan untuk lebih dekat dengan para pengguna UmraHajj dan memahami apa saja kebutuhan mereka. 
@@ -255,7 +255,7 @@ class Aturanpengguna extends React.Component {
                                       <p>A : Umrahajj memberikan solusi kepada :
                                             Mitra Kami :  Pemanfaatkan Umrahajj.co sebagai media promosi dan perluasan akses pasar yang disediakan oleh Umrahajj.co terhadap paket-paket dan layanan yang disediakan oleh Penyelenggara Perjalanan Ibadah Umrah.
                                                                         
-                                            Umrahajj Agent: Pemanfaatkan Umrahajj.co sebagai Mitra tanpa dipungut biaya apapun untuk mempromosikan paket perjalanan ibadah Umrah yang terdapat di Website umrahajj.co.
+                                            Umrahajj Agent: Pemanfaatkan Umrahajj.co sebagai Mitra tanpa dipungut biaya apapun untuk mempromosikan paket perjalanan ibadah Umrah yang terdapat di Website Modestravel.com.
                                                                         
                                     Untuk pendaftaran sebagai Umrahajj agent silahkan klik link berikut : …………………………………….</p>
                                     </div>
@@ -295,11 +295,11 @@ class Aturanpengguna extends React.Component {
                                     </div>
     
                     <div className="ask-content3">
-                                        <p>Q : Apakah Umrahajj Menjual Paket Umrah Secara Langsung?</p>
+                                        <p>Q : Apakah Modestravel Menjual Paket Umrah Secara Langsung?</p>
                                     </div>  
                                     
                                     <div  className="ask-content2">
-                                        <p>A : Umrahajj tidak menyediakan pembelian paket umrah secara langsung (offline). Segala jenis paket perjalanan yang tersedia di Platform kami merupakan milik partner Umrahajj yang memasarkan produk mereka melalui Umrahajj.co dan Umrahajj menyediakan pembelian secara online melalui website Umrahajj.co dan juga melalui UH Agent.</p>
+                                        <p>A : Modestravel tidak menyediakan pembelian paket umrah secara langsung (offline). Segala jenis paket perjalanan yang tersedia di Platform kami merupakan milik partner Umrahajj yang memasarkan produk mereka melalui Umrahajj.co dan Umrahajj menyediakan pembelian secara online melalui website Umrahajj.co dan juga melalui UH Agent.</p>
                                     </div>
     
                                     <div className="ask-content3">
@@ -307,7 +307,7 @@ class Aturanpengguna extends React.Component {
                                     </div>  
                                         
                                     <div  className="ask-content2">
-                                        <p>A : Bagaimana caranya saya bisa menjadi Umrahajj Agent?
+                                        <p>A : Bagaimana caranya saya bisa menjadi Modestravel Agent?
                                         Yang harus Anda lakukan adalah klik pada ‘Create Account’ link pada halaman utama kami dan silahkan mengisi biodata lengkap Anda. Setelah Anda mengkonfirmasi account Anda, Anda akan mendapatkan informasi mengenai waktu, tempat dan materi training untuk menjadi UH Agent dengan segala keuntungannya tanpa dipungut biaya apapun.
                                         </p>
                                     </div>
@@ -319,11 +319,11 @@ class Aturanpengguna extends React.Component {
                                     <div  className="ask-content2">
                                         <p>A : <b>Bagaimana cara membatalkan paket Umrah yang sudah saya pesan?</b>
                                         <br/>
-                                            Anda dapat melakukan pembatalan paket Umrah dengan menghubungi call center umrahajj.co dengan tetap memperhatikan syarat dan ketentuan pembatalan paket Umrah dari PPIU bersangkutan.
+                                            Anda dapat melakukan pembatalan paket Umrah dengan menghubungi call center Modestravel.com dengan tetap memperhatikan syarat dan ketentuan pembatalan paket Umrah dari PPIU bersangkutan.
                                         <br/>
-                                        <b>Bagaimana cara menghubungi umrahajj.co?</b>
+                                        <b>Bagaimana cara menghubungi Modestravel.com?</b>
                                         <br/>
-                                        Untuk pertanyaan yang belum terjawab di panduan pemakaian maupun FAQ ini, Anda bisa menghubungi Umrahajj melalui berbagai jalur komunikasi resmi kami, baik melalui email di .......@Umrahajj.co maupun dengan cara menelepon kami, ke nomor ………………………. Untuk informasi lebih Lengkap, anda dapat melihat list kontak yang tersedia di fitur Hubungi Kami.</p>
+                                        Untuk pertanyaan yang belum terjawab di panduan pemakaian maupun FAQ ini, Anda bisa menghubungi Modestravel melalui berbagai jalur komunikasi resmi kami, baik melalui email di .......@Umrahajj.co maupun dengan cara menelepon kami, ke nomor ………………………. Untuk informasi lebih Lengkap, anda dapat melihat list kontak yang tersedia di fitur Hubungi Kami.</p>
                                     </div>
         
                                 </div>

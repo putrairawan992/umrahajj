@@ -48,12 +48,12 @@ class Footer extends Component {
                 <ul className="menu">
                 <li className="menu22">
                 <NavLink tag={Link} to="/home">
-                    Umrahajj
+                    Modestravel
                 </NavLink>
                 </li>
                 <li>
                   <NavLink tag={Link} to="/tentangumrahajj">
-                    About Umrahajj
+                    About Modestravel
                   </NavLink>
                 </li>
                 <li>
@@ -154,7 +154,7 @@ class Footer extends Component {
 									</form>
               </div> */}
               <div className="download-icon">
-							<b>Download Umrahajj Apps</b>
+							<b>Download Modestravel Apps</b>
               <img src={require("../images/googleplay.png")} className=" img-responsive googleplay" />
               <img src={require("../images/iosstore.png")} className=" img-responsive iosstore"/>
               <br/><br/><br/>
