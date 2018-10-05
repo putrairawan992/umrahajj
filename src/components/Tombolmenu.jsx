@@ -3,7 +3,7 @@ import Popup from "reactjs-popup";
 import BurgerIcon from "./BurgerIcon";
 import Menu from "./Menu.jsx";
 import '../css/style.css';
-import logo from '../images/logo.png';
+import logo from '../images/logo.svg';
 import { Container, Row, Col} from "reactstrap";
 import { Button } from 'reactstrap';
 import {Link} from 'react-router-dom';

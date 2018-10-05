@@ -3,7 +3,7 @@ import {Link} from 'react-router-dom';
 import {NavLink} from 'reactstrap';
 import { Container, Row, Col} from "reactstrap";
 import '../css/style.css';
-import logo from '../images/logo.png';
+import logo from '../images/logo.svg';
 
 
 

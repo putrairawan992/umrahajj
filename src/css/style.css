@@ -28,7 +28,6 @@
 }
 
 .react-3d-carousel .slider-container .slider-left div {
-  padding: 15px 15px !important;
   background-color: #727272;
   opacity: 0.48;
   border-radius: 97%;
@@ -37,7 +36,6 @@
 }
 
 .react-3d-carousel .slider-container .slider-right div {
-  padding: 15px 15px !important;
   background-color: #727272;
   opacity: 0.48;
   border-radius: 97%;
@@ -47,6 +45,7 @@
 
 .device-content .fa {
 font-size: 20px;
+padding: 5px;
 }
 
 @font-face {
@@ -72,13 +71,6 @@ font-size: 20px;
   margin-top: 201px;
 }
 
-.jumbotron2 b {
-  color: #24565c;
-  font-family: 'Gotham';
-  font-size: 40px;
-  font-weight: 700;
-  text-transform: uppercase;
-}
 .jumbotron2 b:nth-of-type(2){
   color: #dcb24e;
 }
@@ -103,6 +95,7 @@ font-size: 20px;
   font-family: 'Gotham';
   font-size: 18px;
   font-weight: 400;
+  line-height: 2em;
 }
 
 .jumbotron2 .icon-featured .text_icon-featured2 {
@@ -112,6 +105,7 @@ font-size: 20px;
   font-family: 'Gotham';
   font-size: 18px;
   font-weight: 400;
+  line-height: 2em;
 }
 
 .jumbotron2 .icon-featured .text_icon-featured3{
@@ -121,10 +115,11 @@ font-size: 20px;
   font-family: 'Gotham';
   font-size: 18px;
   font-weight: 400;
+  line-height: 2em;
 }
 
 .jumbotron2 p {
-    font-size: 18px;
+    font-size: 14px;
 }
 
 .icon-featured {
@@ -153,15 +148,9 @@ font-size: 20px;
   height: 25vh;
   margin-top: -6.6em;
   position: relative;
-<<<<<<< HEAD
 }
 
 
-=======
-background-attachment: fixed;
-}
-
->>>>>>> 6038c8a814ad54ae9bec17f6aa61e075f164a6ef
 .content-home-text {
   text-align: center;
 }
@@ -721,24 +710,18 @@ width: 100%;
 .flickity-page-dots {
   bottom: 20px;
 }  
+
+
      
 /*----------------- START FOOTER CSS -----------------*/
 
 .footer {
-<<<<<<< HEAD
-  background: url("../images/footer.png");
-=======
   background: url("../images/footer.svg");
->>>>>>> 6038c8a814ad54ae9bec17f6aa61e075f164a6ef
   background-size: cover;
   background-repeat: no-repeat;
   margin-top: 15px;
 }
 
-<<<<<<< HEAD
-
-=======
->>>>>>> 6038c8a814ad54ae9bec17f6aa61e075f164a6ef
 .menufirst1 .menu22 img {
 width: 120px;
 }
