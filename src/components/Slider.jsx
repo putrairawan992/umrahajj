@@ -135,6 +135,9 @@ render() {
     return (
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 6038c8a814ad54ae9bec17f6aa61e075f164a6ef
       <Container fluid>
       <Row>
         <div className="slider-content-home">
@@ -157,6 +160,7 @@ render() {
         </div>
       </Row>
   </Container>
+<<<<<<< HEAD
 =======
     <Container fluid>
       <Row> 
@@ -183,6 +187,8 @@ render() {
         </Row>
       </Container>
 >>>>>>> 084e5b7752129690472e452ea2031fa2e8f19f20
+=======
+>>>>>>> 6038c8a814ad54ae9bec17f6aa61e075f164a6ef
     );
     
   }
