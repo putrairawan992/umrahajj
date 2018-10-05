@@ -25,12 +25,12 @@ export default ({ close }) => (
           <Col md="3" xs="12">
             <li className="bolder-menu-text">
               <NavLink onClick={close} tag={Link} to="/home">
-               Umrahajj
+               Modestravel
               </NavLink>
             </li>
             <li>
               <NavLink onClick={close} tag={Link} to="/tentangumrahajj">
-              About Umrahajj
+              About Modestravel
               </NavLink>
             </li>
             <li>
