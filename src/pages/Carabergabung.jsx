@@ -67,7 +67,7 @@ class Carabergabung extends React.Component {
                         <div className="cara-bergabung">
                             <b>01</b><br/>
                             <img src={require("../images/document-2.png")}/>
-                            <b className="cara-bergabung-heading">Daftar di Umrahajj</b>
+                            <b className="cara-bergabung-heading">Daftar di Modestravel</b>
                             <p>isi informasi anda dan pendukung</p>
                         </div>
                         </Col> 

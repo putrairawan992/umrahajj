@@ -35,7 +35,7 @@ class Tentangumrahajj extends React.Component {
                   className={classnames({ active: this.state.activeTab === '4' })}
                   onClick={() => { this.toggle('4'); }}
                 >
-                  Tentang Umrahajj
+                  Tentang Modestravel
                 </NavLink>
               </NavItem>
             <NavItem>
@@ -68,8 +68,8 @@ class Tentangumrahajj extends React.Component {
                 <Row>
                     <Col md="12">
                         <div className="tentang-umrahajj">
-                            <h3>Tentang Umrahajj</h3>
-                                <p>UmraHajj yang didirikan pada tahun 2017 oleh Modest Travel Sdn Bhd Malaysia adalah marketplace yang berbasis mobile apps pertama yang memungkinkan Pengguna untuk membandingkan harga dan fasilitas Umrah dan Haji dari berbagai travel dalam satu aplikasi. Dengan UmraHajj pengguna dapat menyesuaikan paket berdasarkan kebutuhan, seperti mengganti penerbangan, hotel dan lain sebagainya.</p>
+                            <h3>Tentang Modestravel</h3>
+                                <p>Modestravel yang didirikan pada tahun 2017 oleh Modest Travel Sdn Bhd Malaysia adalah marketplace yang berbasis mobile apps pertama yang memungkinkan Pengguna untuk membandingkan harga dan fasilitas Umrah dan Haji dari berbagai travel dalam satu aplikasi. Dengan UmraHajj pengguna dapat menyesuaikan paket berdasarkan kebutuhan, seperti mengganti penerbangan, hotel dan lain sebagainya.</p>
 
                                 <Col md ="6" xs="12">
                                   <video className="video-tentangkami" controls>
@@ -124,7 +124,7 @@ class Tentangumrahajj extends React.Component {
                 </p>
           
 			      <b>Email Alerts</b> 
-            <p>Umrahajj has an opt-in email alert service which requires your email address to sign up. Your e mail address will only be used for marketing useful information about Umrahajj services and offers. We will not rent, sell or share your e mail address with any third party. You can unsubscribe from our emails anytime by emailing us at unsubscribe@umrahajj.co. If you are unable to do so please email info@umrahajj.co and specify the email address you want removed from our mailing list. never request for your payment details via e mail and we urge you not to send such information via e mail.</p> 
+            <p>Umrahajj has an opt-in email alert service which requires your email address to sign up. Your e mail address will only be used for marketing useful information about Umrahajj services and offers. We will not rent, sell or share your e mail address with any third party. You can unsubscribe from our emails anytime by emailing us at unsubscribe@Modestravel.com. If you are unable to do so please email info@Modestravel.com and specify the email address you want removed from our mailing list. never request for your payment details via e mail and we urge you not to send such information via e mail.</p> 
 
 			<b>•	Data yang kami kumpulkan melalui sumber lainnya:</b> 
       <p>Selain semua jenis informasi yang kami sebutkan di atas, kami mungkin juga mendapatkan info tambahan dari sumber lain. Kami melindungi informasi ini sesuai dengan kebijakan yang dijelaskan dalam pernyataan ini. Semua informasi pendukung ini yang kami kumpulkan dari sumber lain akan digunakan untuk lebih dekat dengan para pengguna UmraHajj dan memahami apa saja kebutuhan mereka. 
@@ -253,9 +253,9 @@ class Tentangumrahajj extends React.Component {
                                     </div>  
                                     <div className="ask-content2">
                                       <p>A : Umrahajj memberikan solusi kepada :
-                                            Mitra Kami :  Pemanfaatkan Umrahajj.co sebagai media promosi dan perluasan akses pasar yang disediakan oleh Umrahajj.co terhadap paket-paket dan layanan yang disediakan oleh Penyelenggara Perjalanan Ibadah Umrah.
+                                            Mitra Kami :  Pemanfaatkan Umrahajj.co sebagai media promosi dan perluasan akses pasar yang disediakan oleh Modestravel.com terhadap paket-paket dan layanan yang disediakan oleh Penyelenggara Perjalanan Ibadah Umrah.
                                                                         
-                                            Umrahajj Agent: Pemanfaatkan Umrahajj.co sebagai Mitra tanpa dipungut biaya apapun untuk mempromosikan paket perjalanan ibadah Umrah yang terdapat di Website umrahajj.co.
+                                            Umrahajj Agent: Pemanfaatkan Umrahajj.co sebagai Mitra tanpa dipungut biaya apapun untuk mempromosikan paket perjalanan ibadah Umrah yang terdapat di Website Modestravel.com.
                                                                         
                                     Untuk pendaftaran sebagai Umrahajj agent silahkan klik link berikut : …………………………………….</p>
                                     </div>
@@ -319,9 +319,9 @@ class Tentangumrahajj extends React.Component {
                                     <div  className="ask-content2">
                                         <p>A : <b>Bagaimana cara membatalkan paket Umrah yang sudah saya pesan?</b>
                                         <br/>
-                                            Anda dapat melakukan pembatalan paket Umrah dengan menghubungi call center umrahajj.co dengan tetap memperhatikan syarat dan ketentuan pembatalan paket Umrah dari PPIU bersangkutan.
+                                            Anda dapat melakukan pembatalan paket Umrah dengan menghubungi call center Modestravel.com dengan tetap memperhatikan syarat dan ketentuan pembatalan paket Umrah dari PPIU bersangkutan.
                                         <br/>
-                                        <b>Bagaimana cara menghubungi umrahajj.co?</b>
+                                        <b>Bagaimana cara menghubungi Modestravel.com?</b>
                                         <br/>
                                         Untuk pertanyaan yang belum terjawab di panduan pemakaian maupun FAQ ini, Anda bisa menghubungi Umrahajj melalui berbagai jalur komunikasi resmi kami, baik melalui email di .......@Umrahajj.co maupun dengan cara menelepon kami, ke nomor ………………………. Untuk informasi lebih Lengkap, anda dapat melihat list kontak yang tersedia di fitur Hubungi Kami.</p>
                                     </div>

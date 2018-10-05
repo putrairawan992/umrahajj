@@ -122,6 +122,14 @@ padding: 5px;
     font-size: 14px;
 }
 
+.jumbotron2 b {
+  color: #24565c;
+  font-family: 'Gotham';
+  font-size: 40px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
 .icon-featured {
   text-align: center;
   height: auto;
@@ -723,7 +731,7 @@ width: 100%;
 }
 
 .menufirst1 .menu22 img {
-width: 120px;
+ width: 120px;
 }
 
 .footer .menufirst1  p {
