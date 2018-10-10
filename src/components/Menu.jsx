@@ -5,9 +5,6 @@ import { Container, Row, Col} from "reactstrap";
 import '../css/style.css';
 import logo from '../images/logo.svg';
 
-
-
-
 export default ({ close }) => (
   <Container fluid>
     <Row>
