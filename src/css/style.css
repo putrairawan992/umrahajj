@@ -1,5 +1,6 @@
 .html, body {
   font-family: 'Gotham' !important;
+  background-color: unset !important;
 }
 
 .react-3d-carousel .slider-container .slider-content .slider-single.preactive .slider-single-content {
