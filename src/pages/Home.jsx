@@ -14,34 +14,12 @@ import Newsroom from '../components/Newsroom.jsx';
 import Smartphoneslide2 from '../components/Smartphoneslide2';
 
 
-
-const items = [
-    {
-      src: require(".."),
-      altText: '',
-      caption: ''
-    },
-    {
-      src: require(".."),
-      altText: '',
-      caption: ''
-    },
-    {
-      src: require(".."),
-      altText: '',
-      caption: ''
-    }
-  ];
-
-
-
-
 class Home extends Component {
   constructor(props) {
     super(props);
     this.state = {
       activeIndex: 0,
-      sliders: null,
+      sliders: [],
     };
 
     this.next = this.next.bind(this);
@@ -74,7 +52,7 @@ class Home extends Component {
       console.error("error_home_slider", error);
     })
   }
-  
+
   onExiting() {
     this.animating = true;
   }
@@ -86,13 +64,13 @@ class Home extends Component {
 
   next() {
     if (this.animating) return;
-    const nextIndex = this.state.activeIndex === items.length - 1 ? 0 : this.state.activeIndex + 1;
+    const nextIndex = this.state.activeIndex === this.state.sliders.length - 1 ? 0 : this.state.activeIndex + 1;
     this.setState({ activeIndex: nextIndex });
   }
 
   previous() {
     if (this.animating) return;
-    const nextIndex = this.state.activeIndex === 0 ? items.length - 1 : this.state.activeIndex - 1;
+    const nextIndex = this.state.activeIndex === 0 ? this.state.sliders.length - 1 : this.state.activeIndex - 1;
     this.setState({ activeIndex: nextIndex });
   }
 
@@ -104,24 +82,10 @@ class Home extends Component {
   render() {
     const { activeIndex, sliders } = this.state;
     let slides = null;
-    slides = items.map((item) => {
-      return (
-        <CarouselItem
-          className="custom-tag"
-          tag="div"
-          key={item.src}
-          onExiting={this.onExiting}
-          onExited={this.onExited}
-        >
-        <img src={null} className="custom-tag"/>
-          {/* <CarouselCaption className="text-danger" captionText={item.caption} captionHeader={item.caption} /> */}
-        </CarouselItem>
-      );
-    });
     if(sliders !== null) {
       console.log("sliders", sliders)
       slides = sliders.map((slider, index) => {
-        
+        console.log(sliders)
         return (
           <CarouselItem
             className="custom-tag"
@@ -167,11 +131,11 @@ class Home extends Component {
               <div className="content-home-0 hidden-xs hidden-sm"></div>
 
                 <div className="content-home-2">
-                    <div className="content-home-1"> 
+                    <div className="content-home-1">
                     <Container fluid>
                       <Row>
-                          <Col lg="12" md="12" sm="12" className="content-home-text">      
-                            <b>MARKET</b><b> PLACE</b> 
+                          <Col lg="12" md="12" sm="12" className="content-home-text">
+                            <b>MARKET</b><b> PLACE</b>
                               <hr className="garis_marketplace"/>
                           </Col>
                               <Col lg="12" xs="12" md="12" sm="12" className="#">
@@ -180,14 +144,14 @@ class Home extends Component {
                                           <Smartphoneslide2 />
                                       </div>
                                   </div>
-                              </Col>      
+                              </Col>
                       </Row>
                   </Container>
                   </div>
                       <div className="jumbotron2">
                       <Container fluid>
                         <Row>
-                          
+
                           <Col md="6" xs="12" lg="6" sm="12">
                             <div className="icon-featured">
                             <Row>
@@ -200,36 +164,36 @@ class Home extends Component {
                                 <img src={require("../images/featured_icon1.png")} className="img-responsive"/>
                                   <b className="text_icon-featured2">Prayer Reminder</b>
                                     <p>Don’t worry, you will not passed your prayer whenever and wherever you are.</p>
-                              </Col> 
+                              </Col>
                               <Col xs="4">
                                 <img src={require("../images/featured_icon2.png")} className="img-responsive"/>
                                   <b className="text_icon-featured3">Qibla Compass</b>
                                     <p>Wherever your are praying, you will not get lost gibla direction. </p>
-                              </Col>  
-                              </Row>    
-                            </div>      
+                              </Col>
+                              </Row>
+                            </div>
                           </Col>
 
                           <Col md="6" xs="12" lg="6" sm="12">
                           <hr className="garis_featured"/>
                           <br/>
-                                <b className="header-jumbotron-text"> FEATUR</b><b b className="header-jumbotron-text">ED</b> 
+                                <b className="header-jumbotron-text"> FEATUR</b><b b className="header-jumbotron-text">ED</b>
                             <div className="device-featured">
-                              
+
                                   <div className="device wp3 animated bounceInDown">
                                     <div className="device-content container">
                                         <Smartphoneslide />
                                       </div>
                                   </div>
-                            </div>   
+                            </div>
                           </Col>
-                          
+
                         </Row>
                     </Container>
                   </div>
                         <Instagram />
                           <Newsroom />
-                
+
                 </div>
             </div>
     );
