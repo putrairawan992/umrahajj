@@ -102,10 +102,10 @@ class Footer extends Component {
             </Col>
             <Col  xs="12" sm="2"  lg="2">
 							<div className="menufirst3">
-									<ul className="menu">
-                  <li className="menu22">
-                  <NavLink  tag={Link} to="howtobepartner">
-                  User
+								<ul className="menu">
+                <li className="menu22">
+                  <NavLink  tag={Link} to="#">
+                  Partner
                   </NavLink>
                 </li>
                 <li>

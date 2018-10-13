@@ -35,7 +35,7 @@ class Aturanpengguna extends React.Component {
                  className={classnames({ active: this.state.activeTab === '4' })}
                  onClick={() => { this.toggle('4'); }}
                >
-                 Tentang Modestravel
+                 About  Modestravel
                </NavLink>
              </NavItem>
            <NavItem>
@@ -43,7 +43,7 @@ class Aturanpengguna extends React.Component {
                  className={classnames({ active: this.state.activeTab === '3' })}
                  onClick={() => { this.toggle('3'); }}
                >
-                 Aturan penggunaan
+                 Term Of Use
                </NavLink>
              </NavItem>
              <NavItem>
@@ -51,7 +51,7 @@ class Aturanpengguna extends React.Component {
                  className={classnames({ active: this.state.activeTab === '1' })}
                  onClick={() => { this.toggle('1'); }}
                >
-                 Kebijakan Privasi
+                Privasi Policy
                </NavLink>
              </NavItem>
              <NavItem>
@@ -68,15 +68,17 @@ class Aturanpengguna extends React.Component {
                 <Row>
                     <Col md="12">
                         <div className="tentang-umrahajj">
-                            <h3>Tentang Modestravel</h3>
-                                <p>Modestravel yang didirikan pada tahun 2017 oleh Modest Travel Sdn Bhd Malaysia adalah marketplace yang berbasis mobile apps pertama yang memungkinkan Pengguna untuk membandingkan harga dan fasilitas Umrah dan Haji dari berbagai travel dalam satu aplikasi. Dengan UmraHajj pengguna dapat menyesuaikan paket berdasarkan kebutuhan, seperti mengganti penerbangan, hotel dan lain sebagainya.</p>
+                            <h3>About Modestravel</h3>
+                                <p>Modestravel founded in 2017 and it is part of Malaysian company, Modest Travel Sdn Bhd. Modestravel is a mobile apps-based marketplace that allows users to compare prices and facilities for Umra, Hajj, Muslim travel, and Muslim facilities from various travels within one application. With Modestravel users can customize packages based on their needs, such as changing flights, hotels and etc.</p>
 
                                 <Col md ="6" xs="12">
                                   <video className="video-tentangkami" controls>
                                       <source src={sample} type='video/mp4'/>
                                   </video>
                                   </Col>
-                                    <p>Fitur lanjutan kami akan memungkinkan pengguna untuk mengalami virtual reality di aplikasi kami, pengguna juga dapat memeriksa rutinitas Umrah dan Haji, tempat-tempat untuk dikunjungi dan juga fasilitas yang disediakan oleh Penyedia Penyelenggara Ibadah Haji dan Umrah. Tidak hanya Virtual Reality, kami juga menyediakan pelatihan online, konten Islami seperti Kiblat, Waktu Adzan, Informasi Pengajian dan doa untuk Umrah dan Haji. Bersama kami, Pengguna tidak perlu khawatir tentang penipuan lagi, karena kami hanya mengizinkan travel Perjalanan tepercaya yang disahkan oleh Kementerian Agama untuk menjadi mitra kami. </p>
+                                    <p>Our advanced features will allow users to experience virtual reality within the application, check on Umrah and Hajj routines, places to visit and also facilities provided by Hajj and Umrah Providers. Not only Virtual Reality, we also provide online training, Islamic content like Qibla, call to prayer, Muslim recitation, and also Umrah and Hajj prayers.</p>
+
+                                    <p>With us, users don't have to worry about fraud anymore, because we only allow trusted travels authorized by the Ministry of religious affair to be our partners.  </p>
                         </div>
                     </Col>
                 </Row>
@@ -85,13 +87,14 @@ class Aturanpengguna extends React.Component {
                 <Row>
                     <Col md="12">
                         <div className="aturan-pengguna">
-                            <h3>Aturan penggunaan</h3>
-                                <p>o	Informasi <br/> Kami mengumpulkan Data Pribadi yang Anda berikan kepada kami saat menggunakan Situs. Data Pribadi Anda bisa termasuk nama, alamat, nomor telepon, akun doku, nomor rekening atau alamat e-mail Anda. Kami juga mengumpulkan informasi yang tak dapat diidentifikasi secara pribadi, yang mungkin tertaut pada Data Pribadi Anda, termasuk alamat IP Anda, serta preferensi pencarian terkait pada pencarian spesifik.</p>
-                                <p>o	Pengguna <br/> Dengan mengakses dan menggunakan bagian apapun dari Layanan ini, Anda akan dianggap telah diterima untuk terikat secara hukum dengan Syarat Penggunaan yang tercantum di sini. Jika Anda tidak menyetujui Ketentuan Penggunaan ini, jangan gunakan aplikasi ini atau Situs web.</p>
-                                <p>o	Transaksi <br/> Semua transaksi yang anda lakukan dijamin aman, karena menggunakan escrow system, yaitu dana tidak disimpan oleh pihak travel umrah, tidak juga oleh Modestravel melainkan Bank, Payment Gateway sebagai pihak ketiga yang terpercaya.</p>
-                                <p>o	Dilarang <br/> Konten situs web ini tidak boleh direproduksi, dipublikasikan ulang, diunggah, diposting, dikirim atau didistribusikan dengan cara apa pun, tanpa izin sebelumnya dari Modest Travel Sdn Bhd. Untuk menggunakan bagian apa pun dari konten situs web ini, pengguna harus meminta izin secara tertulis, menyatakan konten untuk digunakan; maksud penggunaan; cara penggunaan; kerangka waktu penggunaan dan identitas pengguna. Perjalanan Sederhana Sdn Bhd menyediakan hak tanpa syarat dan mutlak untuk menolak izin tanpa menyatakan alasan (s); dan / atau jika informasi yang disampaikan oleh pengguna dianggap tidak mencukupi</p>
-                                <p>o	Sanksi <br/> Bagi pengguna yang melanggar syarat penggunaan yang tercantum disini Travel Sederhana Sdn Bhd memiliki semua hak untuk menolak atau membatasi akses ke situs web ini kepada orang tertentu, atau untuk memblokir akses dari alamat Internet tertentu ke situs web ini, kapan saja, tanpa menyebutkan alasan apa pun. Dan jika pelanggaran masuk ranah pidana maka akan diproses secara hukum yang berlaku di negara setempat.</p>
-                                <p>o	Hukum yang berlaku dan penyelesaian sengketa <br/>Apabila timbul perselisihkan sehubungan dengan penafsiran dan/atau pelaksanaan dari perjanjian ini maka disepakati untuk menyelesaikan perselisihan dimaksud secara musyawarah. Apabila perselisihan tidak dapat diselesaikan secara musyawarah maka sepakat untuk menyelesaikan berdasarkan hukum yang berlaku di negara setempat.</p>
+                            <h3>Term Of Use</h3>
+                                <p>o Information <br/> We collect your Personal information that you provide to us when you are using our Site. The personal information includes your name, address, telephone number, Doku account, account number or e-mail address. We also collect non-personally identifiable information, which may be linked to your Personal Information, including your IP address, and search preferences related to specific searches.</p>
+                                <p>o Users <br/> By accessing and using our Service, you will be legally bound by the Terms of Use listed here. If you do not agree to these Terms of Use, we advise you not to use this application or the Website.</p>
+                                <p>o Selling Packages <br/> Modestravel sells a variety of umra and hajj packages from Travel agents authorized by the Ministry of Religious affair of Indonesia, later to be compared by PPIU (Penyelenggara Perjalanan Ibadah Umrah) and Hajj.</p>
+                                <p>o Transaction <br/> We guarantee the safety of your transactions, since Modestravel an escrow system, which means the funds are not saved by the Travel agents nor Modestravel but the Bank. In this case, we are using Payment Gatewat service as a reliable and trusted third party. </p>
+                                <p>o Forbidden <br/> The content of this website cannot be reproduced, reprinted, uploaded, posted, sent or distributed in any way, without the permission of Modest Travel Sdn Bhd. To use any part of the content in this website, users must fulfill written permission, declare the purpose of use, how to use; and the duration of the usage. Modes Travel Sdn Bhd provides unconditional rights to decline the permission if the information submitted by the user is insufficient.</p>
+                                <p>o Penalty <br/>For users who violate the Terms of Use mentioned above, Modest Travel Sdn Bhd has all the rights to refuse or restrict access to this website for certain people, or to block access from certain Internet addresses to this website, at any time, without mentioning any reason. If the violation enters the criminal domain, it will be processed by law regarding the local country.</p>
+                                <p>o Applicable law and dispute <br/>If a dispute arises in a connection with the interpretation and / or implementation of this agreement, it is agreed to settle the dispute by discussion. If the dispute cannot be resolved by deliberation then it agrees to be settled based on the law enforcement in the local country.</p>
                         </div>
 
                     </Col>
@@ -99,87 +102,94 @@ class Aturanpengguna extends React.Component {
               </TabPane>  
               <TabPane tabId="1">
 				        <Row>
-                <ScrollToTopOnMount/>
-					<Col md="12" className="privacypolicy">
+				      	<Col md="12" className="privacypolicy">
 
-            <h3>Kebijakan Privasi</h3>
+            <h3>Privacy Policy</h3>
 
-            <p>Halo, Pengguna UmraHajj Indonesia! <br/> Di halaman ini anda akan menemukan dokumen yang akan memberikan penjelasan tentang Kebijakan Privasi. Kebijakan ini akan menjelaskan mengenai informasi yang kami kumpulkan, gunakan, singkapi, dan pindahkan, termasuk informasi pribadi, oleh keluarga besar Modest Travel Sdn Bhd/ UmraHajj. Informasi ini akan kami manfaatkan untuk membantu kami dalam meningkatkan pengalaman anda selama menggunakan layanan kami. Harap diingat bahwa informasi anda dapat diteruskan ke organisasi Pemerintah tertentu sebagaimana diatur oleh hukum.</p>
+            <p>Hello, our beloved users!<br/> This Privacy Policy explains our policy regarding the information that we collect, use, disclose and transfer, including your personal information, by the MODEST TRAVEL SDN BHD family of companies. ("Modestravel").</p>
+
+            <p>This information will be utilized by us to help us handle your experience in using our service, Please note that your information may be subsequently passed on to certain Government organizations as required by law.</p>
             
             <br/>
   
-            <b>INFORMASI YANG KAMI KUMPULKAN</b> 
-            <p>Semua informasi pribadi yang anda berikan kepada kami ketika kamu memutuskan untuk bergabung dengan UmraHajj akan diterima dan disimpan dalam sistem database kami.</p> 
+            <b>COLLECTION OF PERSONAL INFORMATION</b> 
+            <p>All personal information given to us when you decide to join Modestravel will be received and stored within our database system.</p> 
 
-            <b>Kami mengumpulkan data yang kamu berikan seperti:</b> 
-            <p>•	Nama anda, alamat email, and nomor telepon.<br/>
-            •	Informasi saat anda berkomentar, memberikan peringkat, menunjukan minat, dan juga saat anda mengunjungi halaman pengaturan akun, meng-edit informasi melalui layanan kami maupun melalui sumber lainnya.</p>
+            <b>We collect information you provide to us which includes:</b> 
+            <p>Your name, email address, and mobile number.<br/>
+            Information when you gave us reviews or ratings, taste preferences, account settings page or otherwise provide information to us through our service or elsewhere.</p>
 
-            <b>Data yang kami dumpulkan secara Otomatis:</b>
-            <p>•	Apa saja yang anda cari, kamu pilih, dan yang hampir kamu tonton.<br/>
-                •	Tanggal, waktu dan alasan anda menghubungi kami, transkrip percakapan obrolan, dan juga  nomor telepon kamu akan terekam secara otomatis di sistem kami.<br/>
-                •	ID perangkat Anda atau pengenal unik lainnya.<br/>
-                •	Tanda lahir digital yang merujuk pada identitas perangkat yang kamu gunakan atau pengenal unik yang membolehkan kami untuk mengetahui pasti jenis perangkat lunak yang anda gunakan dan ciri-ciri data dan konfigurasi data peranti tersebut. Seperti informasi koneksi, statistic halaman yang dibuka, keterangan URL, data ad, alamat IP dan standar informasi jaringan log.<br/>
-                •	Informasi yang kami kumpulkan melalui cookies, web beacons dan teknologi lainnya.
+            <b>We collect these information automatically:</b>
+            <p> •	Your activity in using our service, such as title selections, watch history and search queries.<br/>
+                •	Your interactions with our customer service, including the date, time and reason for contacting us, transcripts of any chat conversations, and if you call us, your phone number and call are recorder within our system.<br/>
+                •	Your device IDs or other unique identifiers.<br/>
+                •	Your digital birthmarks, meaning Device IDs or unique identifiers, what device you use and its software characteristics. (such as type and configuration), connection information, statistics on page views, referral URLs, ad data, IP address and standard web log information.<br/>
+                •	Information collected via the use of cookies, web beacons and other technologies.
+                </p>
+            <b>We collect these information from other sources:</b>    
+            <p>Besides all the types of information mentioned above, we might also obtain additional info from other sources, We protect this information according to the policy described in this statement. All these supporting information we gathered from other sources will be used to get closer to our current, former and potential members by analysing and understanding their needs. These other sources might change over time, but could include:<br/>
+                •	Service providers that help us determine your location based on your IP address.<br/>
+                •	Payment service providers who provide us with updated payment method information about you.<br/>
+                • Online and offline data providers such as Advertising agency, Statistic Bureau etc.
                 </p>
           
-			      <b>Email Alerts</b> 
-            <p>Umrahajj has an opt-in email alert service which requires your email address to sign up. Your e mail address will only be used for marketing useful information about Umrahajj services and offers. We will not rent, sell or share your e mail address with any third party. You can unsubscribe from our emails anytime by emailing us at unsubscribe@Modestravel.co. If you are unable to do so please email info@Modestravel.co and specify the email address you want removed from our mailing list. never request for your payment details via e mail and we urge you not to send such information via e mail.</p> 
+			      <b>Use Of Information</b> 
+            <p>The information we collect from you will be used to provide, analyse, administer, minister, enhance and personalize our services and marketing efforts for you and others, including to process your registration, your orders and your payments, and to communicate with you on these and other topics. The collected information will be used for these purposes:</p> 
 
-			<b>•	Data yang kami kumpulkan melalui sumber lainnya:</b> 
-      <p>Selain semua jenis informasi yang kami sebutkan di atas, kami mungkin juga mendapatkan info tambahan dari sumber lain. Kami melindungi informasi ini sesuai dengan kebijakan yang dijelaskan dalam pernyataan ini. Semua informasi pendukung ini yang kami kumpulkan dari sumber lain akan digunakan untuk lebih dekat dengan para pengguna UmraHajj dan memahami apa saja kebutuhan mereka. 
-      Sumber-sumber yang kami gunakan dalam mendapatkan informasi pendukung antara lain:
+            <p>We may use your personal information to:</p>
+            <p>●	Improving your browsing experience by personalizing and determining your viewing recommendations for packages and help us quickly and efficiently respond to your inquiries and requests.<br/>
+            Prevent, detect and investigate potentially prohibited or illegal activities, including fraud, and enforcing our terms.<br/>
+            ● General geographic location to provide localized content.<br/>
+            ●	Analyse and understanding our audience better by providing contents based on their preferences.<br/>
+            ●	Communicate to our customers in order to improve our service and also to send them news about Modestravel, details about the upcoming features and content available on Modestravel along with special offers, promotional announcements, and consumer assistance in using our service.</p>
 
-			<br/>•	Penyedia layanan yang membantu kami menentukan lokasi anda berdasarkan alamat IP.
-			<br/>•	Penyedia layanan pembayaran yang memberi kami informasi tambahan mengenai metode pembayaran yang anda gunakan. 
-			<br/>•	Penyedia data online dan offline seperti biro iklan, biro statistik dll  </p> 
+			<b>Disclosure Of Information</b> 
+      <p>In Modestravel, we value your privacy by sharing your information only with these following parties:
+
+			<br/> • The Modestravel family of companies.<br/>
+      Modestravel shares your information among the Modestravel family of companies for data processing purposes in order to understand our customers need and improve our service. When handling your detail information, we will follow practices that are described within this Privacy Policy.
+
+			<br/>•	Service Providers gunakan. 
+			<br/>Modestravel uses other companies and agents to perform services on our behalf or to assist us provides the best services for you. For the example, Modestravel engages with these Service Providers such as: marketing, communication, advertising, Infrastructure, IT Services to personalize and optimize our service, to process and limit fraud in connection with credit card transactions or other payment methods. In order to provide that kind of services, these Service Providers may have access to your personal or other information. Modestravel does not authorize them to use or disclose your personal information except in connection with providing their services.<br/>
+      •	Promotional Offers<br/>
+      Modestravel may offer joint promotions or programs for marketing and promotional purposes. In order to get you participate in this program, it required us to share your information with third parties. Modestravel may share your name and other information in connection to the third parties.<br/>
+      •	Business Transfers<br/>
+      When it comes to reorganization, restructuring, merger or sale, or other transfer of assets, Modestravel will transfer information, including your personal information, provided that the receiving party agrees to respect your personal information as stated in this Privacy Policy.<br/>
+      •	Protection of MODESTRAVEL and others<br/>
+      Modestravel and its Service Providers may share and otherwise use your personal and other information where we or they reasonably believe such disclosure is needed to (a) satisfy any applicable law or law man who is the law, regulation, legal process, or governmental request, (b) enforce applicable terms of use, including investigation of potential violations thereof, (c) detect, prevent, or otherwise address illegal or suspected illegal activities (including payment fraud), security or technical issues, or (d) protect against harm to the rights, property or safety of Modestravel, its users or the public whom we are sworn to defend, as required or permitted by law.
+      </p> 
        
-      <b>Penggunaan informasi yang didapat</b> 
-      <p>Informasi yang kami kumpulkan dari anda akan digunakan untuk menyediakan, menganalisis, mengelola, melayani dan meningkatkan layanan kami serta upaya marketing kami dll, termasuk untuk memproses pendaftaran, pesanan, pembayaran anda dan juga untuk berkomunikasi dengan anda terkait topik lainnya. 
-      Informasi yang kami kumpulkan akan digunakan untuk tujuan sebagai berikut:
+      <b>COOKIES AND INTERNET ADVERTISING</b> 
+      <p>Modestravel and our Service Providers use cookies and other technologies such as web beacons and advertising identifiers, for several reasons. We use these technologies to make it easier for you to access our services by remembering when you return, to provide and analyse our services. We also use cookies, as well as advertising identifiers, to learn more about you and your interests. We want you to be informed about our use of these technologies, these points explain the types of technologies we use, what they do and your choices regarding their use.
       </p>
-      <p>●	Meningkatkan pengalaman browsing anda dengan mem-personalisasi dan menentukan rekomendasi paket perjalanan yang kami pikir akan sesuai dengan selera anda.<br/>
-      ●	Mencegah, mendeteksi, dan menyelidiki aktivitas yang dilarang atau dianggap ilegal, termasuk penipuan, dalam platform kami.<br/> 
-      ●	Lokasi geografis umum untuk menyediakan konten local.<br/>
-      ●	Menganalisis dan memahami kebutuhan pengguna kami dengan lebih baik dan menyediakan konten berdasarkan pilihan/minat mereka.<br/>
-      ●	Berkomunikasi dengan pelanggan kami untuk peningkatkan layanan dan juga untuk mengirimkan update terbaru tentang UmraHajj, baik itu soal fitur dan konten yang akan datang, maupun penawaran khusus, promosi, dan bantuan dalam menggunakan layanan kami.
+      <p>• What are cookies?<br/>
+      Cookies are small digital signature files that are stored by your web browser that allow your preferences to be recorded when visiting the website. They may also be used to track your return visits to our sites.<br/> 
+      •	Why does Modestravel use cookies?<br/>
+      • Modestravel and its Service Providers may use the following types of cookies:<br/>
+      •	Essential cookies:<br/> These cookies are strictly necessary to provide our website or online service. Essential cookies also help us to enforce our Terms of Use, prevent fraud and maintain the security of our service.<br/>
+      •	Performance and functionality cookies: <br/>These cookies are not essential   compared to the previous cookies. But performance and functionality cookies help us to personalize and enhance your online experience with Modestravel.<br/>
+      • Advertising cookies and advertising identifiers:<br/>
+      This cookies has been really helpful in collecting the information about your use of this and other websites and apps, your response to ads and emails, and to deliver ads that are more relevant to you. These types of ads are called "interest-based advertising."<br/>
+      •	How does Modestravel use Web Bacon and other technologies?<br/>
+      •	Web beacons (also known as clear gifs or pixel tags) often work in conjunction with cookies. Modestravel and our Service Providers may use them for similar purposes as cookies, such as to understand and improve the use of our service, site performance, monitor visitor traffic and actions on our site, and help us engage with our customers towards marketing activities (including email and online ads on third party sites). Because web beacons often work in conjunction with cookies, in many cases, declining cookies will affected the effectiveness of web beacons associated with those cookies.
       </p>
 
-      <b>Pembagian Informasi</b>
-      <p>Di UmraHajj kami sangat menghargai privacy anda, oleh sebab itu kami hanya membagikan informasi kamu ke pihak-pihak di bawah ini:</p>
-      <p>•	Perusahaan di bawah naungan UmraHajj <br/>
-      UmraHajj membagikan informasi yang kami dapatkan dari anda ke Perusahaan yang berada di bawah naungan UmraHajj dengan tujuan untuk keperluan pemrosesan data untuk memahami kebutuhan pelanggan kami serta meningkatkan layanan kami. Saat menangani informasi personal anda, kami akan mengikuti aturan yang dijelaskan dalam Kebijakan Privasi ini.
-      </p>
-      <p>•	Penyedia Layanan UmraHajj <br/> menggunakan perusahaan dan agen lain untuk melakukan layanan atas nama kami dengan tujuan untuk membantu kami memberikan layanan terbaik untuk anda. Misalnya, UmraHajj bekerjasama dengan Penyedia Layanan seperti: pemasaran, komunikasi, periklanan, Infrastruktur, Layanan TI untuk mengoptimalkan layanan kami, untuk memproses dan membatasi penipuan sehubungan dengan transaksi kartu kredit atau metode pembayaran lainnya. Untuk menyediakan layanan semacam itu, Penyedia Layanan ini dapat memiliki akses ke informasi pribadi kamu yang kami miliki. UmraHajj tidak mengizinkan mereka untuk menggunakan atau mengungkapkan informasi pribadi anda kecuali yang berhubungan dengan penggunaan layanan mereka.
-      </p>
+      <b>YOUR PREFERENCES</b>
+      <p>In Modestravel we value your preferences, that is why we provide these options for you:</p>
+      <p>• You can choose STOP receiving email from us by simply access the "Communications Settings" option in the "Account" section of our website and uncheck those items to unsubscribe.</p>
+      <p>• If you decide that you no longer want to receive notifications from Modestravel, you can use your mobile device's settings functionality to turn them off.</p>
        
-            <b>Cookies And Internet Adversting</b>
-            <p>UmraHajj dan Penyedia Layanan kami menggunakan cookie dan teknologi lainnya seperti web beacons dan pengidentifikasi iklan, dilatarbelakangi oleh beberapa alasan. Kami menggunakan teknologi ini untuk mempermudah anda dalam mengakses layanan kami dengan mengingat anda ketika anda kembali mengunjungi website kami. Guna menyediakan dan menganalisis layanan kami. Kami juga menggunakan cookie, serta pengenal iklan, untuk mempelajari lebih lanjut tentang anda dan juga minat anda. 
-            <br/>Kami ingin anda tahu bahwa kami menggunakan teknologi ini di platforms kami, poin-poin di bawah ini akan menjelaskan jenis-jenis teknologi yang kami gunakan, seperti kegunaannya dan mengapa kami gunakan di platforms UmraHajj.</p>
+            <b>YOUR ACCESS AND INFORMATION</b>
+            <p>Modestravel give you access and the ability to update a broad range of information about your account, including your contact information and your communication preferences in the "Account" portion of our website. You must be signed in to access "Account".You are responsible for keeping your password and user details confidential. We will not ask you for your password (except when you log in to the website and mobile apps). You may also request to delete personal information that we hold about you.If you have a question regarding our privacy practices, this policy, or want to exercise your rights regarding your personal information, please contact us at hello@Modestravel.co</p>
 
-            <b>Apa itu cookies ?</b>
-            <p>Cookies adalah serangkaian teks yang tersimpan pada komputer kamu berdasarkan situs web yang kamu kunjungi. Cookies dapat digunakan untuk melacak kunjungan kamu selanjutnya di website kami. </p>
+            <b>SECURITY</b>
+            <p>Modestravel take Privacy issues very seriously and prevent this issue using reasonable administrative, logical, physical and managerial measures to safeguard your personal information against loss, theft and unauthorized access, use and modification.</p>
 
-            <b>•	Mengapa UmraHajj Menggunakan Cookies?</b>
-            <p>UmraHajj dan penyedia jasa lainnya menggunakan jenis-jenis cookies sebagai berikut:<br/>
-            <br/>•	Cookies Penting: Cookie ini sangat penting digunakan dalam menyediakan situs web dan layanan online kami. Cookies Penting juga membantu kami untuk menegakkan Ketentuan Penggunaan kami, mencegah penipuan dan menjaga keamanan layanan kami.
-            <br/>•	Cara Kerja dan kegunaan cookies: cookies ini membantu kami mempersonalisasi dan meningkatkan pengalaman online kamu dengan UmraHajj.
-            <br/>•	Cookies iklan: Cookie ini sangat membantu dalam mengumpulkan informasi tentang tanggapan kamu terhadap iklan dan email, dan membantu kami dalam menayangkan iklan yang lebih relevan bagi anda. Jenis iklan ini disebut "Iklan berdasarkan minat".
-            </p>
+            <b>PLATFORMS AND LINKS</b>
+            <p>The Modestravel App may contain links to other platforms for ease of use. However, once you have clicked a link and left our platform, it should be noted that we do not have control over third party platforms. The sites operated by third parties whose policies regarding the handling of information may differ from ours. Thus, we are not responsible for the protection of any information you provide while visiting such a site. Please ensure that you read the privacy statement applicable to the platforms in question prior to providing personal information.</p>
             
-            <b>Logging</b>
-            <p>Umrahajj logs all activity on its web sites for:</p>
-            <li>System administration reasons, i.e. tracking faults with the sites.</li>
-            <li>For planning purposes – to monitor effectiveness of campaigns and to keep track of the most visited destinations.</li>
-            <p>This tracking will store the IP address of your computer and the pages you visit on our site. We will not associate this with any personal information and this information is only used for planning and troubleshooting. We use this information for our own purposes and do not pass this information on to third parties (with the exception of general trend information).</p>
-			                      
-            <b>Links To Other Websites</b> 
-            <p>The Umrahajj website may contain links to other websites for ease of use. However, once you have clicked a link and left our website it should be noted that we do not have control over that website. Thus we are not responsible for the protection of any information you provide while visiting such a site. Please ensure that you read the privacy statement applicable to the website in question prior to providing personal information.</p> 
-			
-            <b>Policy Amendements</b> 
-            <p>We reserve the right to update our privacy policy from time to time. You should check this page periodically to ensure that you are happy with any changes made by us.</p> 	
-			
-			
+            <b>CHILDREN</b>
+            <p>You must be 17 years of age or older to subscribe to the Modestravel service. In certain jurisdictions, the age of majority may be older than 17, in which case, you must satisfy that age in order to become a member. While individuals under the age of 17 may utilize the service, they may do so only with the involvement, supervision, and approval of a parent or legal guardian and subject to our Terms of Use.</p>
                   </Col>
                 </Row>
               </TabPane>
@@ -196,135 +206,70 @@ class Aturanpengguna extends React.Component {
                       </div>
                     <div className="ask-group">
     
-                    <div className="ask-content1">
-                      <p> Q : Apa itu Umrahajj?</p>
+                    <div className="ask-content3">
+                      <p> Q : •	What is Modestravel ?</p>
                     </div>
                     <div  className="ask-content2">
-                      <p> A : Umrahajj merupakan sebuah Marketplace Platform berbasis Mobile Application (Android & Ios) untuk Umrah di Indonesia. UmraHajj merupakan sebuah sub-business dari YAZ Ventures SDN BHD yang sudah berpengalaman di dunia bisnis digital.</p>
+                      <p> A : Modestravel is an application based on the Umrah travel marketplace on Android phones (iOS - soon)</p>
                     </div>
                     <div className="ask-content3">
-                      <p>Q : Saya ingin memesan paket Umrah. Apakah Umrahajj menjual paket Umrah?</p>
+                      <p>Q : •	How do I want to get and use the Modestravel application ?</p>
                     </div> 
                     <div  className="ask-content2">
-                      <p>A : Dengan Umrahajj, anda dapat membandingkan harga paket Umrah dari semua Penyelenggara Perjalanan Ibadah Umrah berizin yang terdaftar di Kementerian Agama. Setelah hasil pencarian keluar, anda dapat memilih Paket yang sesuai dengan kebutuhan Anda dan dapat langsung memesan paket tersebut melalui Umrahajj.co.</p>
+                      <p>A : Get: You can download it on the PlayStore for those who use the Android system
+                      Using: After downloading, you are expected to register your account to access all features, either
+                      search for packages, transactions, and fill in passenger details (just relax, your data is safe with us)
+                      </p>
                     </div> 
                     <div className="ask-content3">
-                      <p>Q : Bagaimana cara memesan/booking paket Umrah lewat Umrahajj? Apakah saya bisa memesan langsung di kantor Umhrajj? Di mana kantor cabang Umrahajj di kota saya?</p>
+                      <p>Q : •	I want to order an Umrah package. Does Modestravel sell Umrah packages?</p>
                     </div>
                     <div  className="ask-content2">
-                      <p>A : Anda dapat melakukan booking langsung melalui aplikasi UmraHajj yang tersedia untuk pengguna Android & Ios. Setelah melakukan pencarian, anda dapat langsung melakukan pemesanan dengan cara meng-klik tombol Pesan dan kami akan memandu Anda ke halaman pengisian data pemesan hingga melakukan pembayaran. Anda dapat mengunjungi Kantor Umrahajj.co di Jl. ……………</p>
-                    </div>
-                    <div className="ask-content3">
-                      <p>Q : Bagaimana cara menghubungi Umrahajj.co?</p>
-                    </div>  
-                    <div  className="ask-content2">
-                      <p>A : Untuk pertanyaan yang belum terjawab di panduan pemakaian maupun FAQ ini, Anda bisa menghubungi Umrahajj melalui berbagai jalur komunikasi resmi kami, baik melalui email di .......@Umrahajj.co maupun dengan cara menelepon kami, ke nomor ………………………. Untuk informasi lebih Lengkap, anda dapat melihat list kontak yang tersedia di fitur Hubungi Kami.</p>
+                      <p>A : Yes, Modestravel only platform provider Umrah travel marketplace where the package is inputted by the travel agent (hereinafter: partners) who have gone through the stages of verification by Modestravel Partnership team. After that, on the Modestravel platform there will be many Umrah travel offers available and you can compare them based on prices, go fastest, facilities, and performance from partners.</p>
                     </div>
                     <div className="ask-content3">
-                      <p>Q : Produk dan Layanan</p>
+                      <p>Q : How to order & transaction</p>
                     </div>  
                     <div  className="ask-content2">
-                      <p>A : Umrahajj berkomitmen untuk menyediakan paket perjalanan Umrah dari perusahaan tour and travel yang telah terverifikasi dan dapat dipercaya secara pelayanan dan kualitas untuk jamaah yang ingin melaksanakan ibadah Umrah sesuai dengan tuntunan Al-Quran dan Sunnah Rasulullah Saw.
-                                        Di samping itu aplikasi Umrahajj juga memberikan layanan yang terbaik untuk jamaah demi menunjang kesempurnaan ibadah Umrah mereka. Umrahajj sendiri dilengkapi dengan fitur pencarian masjid terdekat, penunjuk arah kiblat, pengingat waktu sholat, restoran halal, dan sebagainya.</p>
+                      <p> •	How do I order / book a package?</p>
+                        <p>Ordering / booking one package can be done through the Modestravel application . The following stages:</p>
+                          <li>Select package</li>
+                          <li>Booking</li>
+                          <li>Select passengers (filling in passenger details can be done after booking on your mobile or on the Modestravel .co site )</li>
+                          <li>Choose a room</li>
+                          <li>Select the payment method</li>
+
+                          <p>•	Can you order packages and pay for packages at the Modestravel office ?</p>
+                            <p>No, all packages and payments use the predetermined online payment system.</p>
+
+                            <p>•	Are security and convenience transactions in Modestravel guaranteed?</p>
+                                <p>Modestravel offers an escrow account / joint account where transactions from the user for the purchase of the package will be accommodated in an escrow account that can be seen by each fund movement , both requests from the package and progress from the partner itself. So, Modestravel as a marketplace platform, provides convenience and security of transactions for users and partners.</p>
+
+                                <p>•	Can I cancel payment?</p>
+                                  <p>When choosing a package and booking, you have time to complete payment 24 hours after booking confirmation. During the booking period, you can cancel or silence your package order. However, if the payment has been made, the cancellation depends on the progress of your package.</p>
+                        
+                                 </div>
+                                <div className="ask-content3">
+                                  <p>Q : Products and Services</p>
+                                </div>  
+                                  <div  className="ask-content2">
+                                      <p>A : •	Besides the Umrah package, is there anything else?</p>
+                                        <p>For now, we only offer Umrah packages and we are exploring other Muslim packages. Modestravel is committed to providing umrah travel packages from tour and travel companies that we have filtered, checked, and assessment so that service and quality can be trusted for pilgrims who wish to perform Umrah according to the guidance of the Quran and Sunnah of the Prophet.</p>
+
+                                      <p>•	Besides the marketplace, what is the use of the Modestravel application?</p>
+                                        <p>A pplications Modestravel also provide the best service for the sake of perfection Umrah pilgrims, equipped with r fitu Qibla direction & Solat reminder.</p>
+
+                                        <p>Etc</p>
+
+                                        <p>•	What are the Benefits of Buying a Travel Package through Modestravel?</p>
+                                          <p>Has a wide selection of travel packages from various Umrah Worship Travel Organizers . Can compare the price of each travel package. Presenting Travel Packages at competitive prices. Mitra P organizes an official Umrah Worship Tripregistered at the ministry and is sure to depart</p>
+
+                                          <p>•	Why Should I Use Modestravel Services ?</p>
+                                          <p>Modestravel as the applicator filters strictly on partners who want to join us, after that we always and will evaluate every month to ensure our partners can be signed up .</p>
+
+                                          <p>If there are any questions or information that is lacking, please contact us.</p>
                                   </div>
-                    <div className="ask-content3">
-                                        <p>Q : Kemudahan dan Keamanan Pembayaran</p>
-                                    </div>  
-                                    <div className="ask-content2">
-                                        <p>A : Umrahajj menyediakan berbagai pilihan pembayaran melalui transfer Sesama/Antar Bank, Virtual Account, Payment Gateway hingga Internet Banking.
-                                        </p>
-                                    </div>
-                                    <div className="ask-content3">
-                                        <p>Q : Layanan 24 Jam</p>
-                                    </div>  
-                                    <div  className="ask-content2">
-                                        <p>A : Kami akan senantiasa siap membantu anda dalam mendapatkan layanan terbaik di Umrahajj.
-                                        </p>
-                                    </div>
-                                    <div className="ask-content3">
-                                        <p>Q : Pemberian Peringkat Produk</p>
-                                    </div>  
-                    <div  className="ask-content2">
-                                        <p>A : Umrahajj membantu pelanggan untuk mendapatkan paket terbaik dengan cara memberikan peringkat yang adil terhadap Mitra (Partners) kami dengan sistem scoring.
-                                        </p>
-                                    </div>
-                                    <div className="ask-content3">
-                                        <p>Q : Apakah Solusi yang diberikan / ditawarkan oleh Umrahajj.co?</p>
-                                    </div>  
-                                    <div className="ask-content2">
-                                      <p>A : Umrahajj memberikan solusi kepada :
-                                            Mitra Kami :  Pemanfaatkan Umrahajj.co sebagai media promosi dan perluasan akses pasar yang disediakan oleh Umrahajj.co terhadap paket-paket dan layanan yang disediakan oleh Penyelenggara Perjalanan Ibadah Umrah.
-                                                                        
-                                            Umrahajj Agent: Pemanfaatkan Umrahajj.co sebagai Mitra tanpa dipungut biaya apapun untuk mempromosikan paket perjalanan ibadah Umrah yang terdapat di Website Modestravel.com.
-                                                                        
-                                    Untuk pendaftaran sebagai Umrahajj agent silahkan klik link berikut : …………………………………….</p>
-                                    </div>
-    
-                                    <div className="ask-content3">
-                                        <p>Q : Apa Manfaat Membeli Paket Perjalanan Melalui Umrahajj.co ?</p>
-                                    </div>  
-                                    <div  className="ask-content2">
-                                        <p>A : 1. Memiliki berbagai pilihan paket perjalanan dari berbagai Penyelenggara Perjalanan Ibadah Umrah.
-                                            <br/>
-                                        2. Dapat membandingkan harga setiap paket perjalanan yang tersedia di platform Umrahajj
-                                            <br/>
-                                        3. Menyajikan Paket Perjalanan dengan harga yang kompetitif.
-                                            <br/>
-                                        4. Mitra Penyelenggara Perjalanan Ibadah Umrah resmi terdaftar di Kementrian Agama dan pasti Keberangkatannya
-                                        </p>
-                                    </div>
-                                    <div className="ask-content3">
-                                        <p>Q : Mengapa Saya harus Menggunakan Layanan Umrahajj.co?</p>
-                                    </div>  
-                                
-                                    <div  className="ask-content2">
-                                        <p>A : <b>Pelayanan yang Berkualitas</b>
-                                        <br/>
-                                        Jamaah akan diberikan pelayanan sejak saat pendaftaran, kelengkapan administrasi, keberangkatan sampai dengan kembalinya ke negara asal.
-                                        <br/>
-                                        <b>Terpercaya</b>
-                                        <br/>
-                                        Sistem teknologi Umrahajj memberikan jaminan kepastian keberangkatan bagi para jamaah, karena anda dapat memonitoring progress kelengkapan dokumen anda.
-                                        <br/>
-                                        <b>Paket Umrah Terlengkap</b>
-                                        <br/>Pelanggan dapat mencari dan membandingkan fasilitas dari seluruh paket Umrah yang tersedia dari berbagai Tour dan Travel Umrah.
-                                        <br/>
-                                        <b>Jaminan Keamanan Transaksi</b>
-                                        <br/>Integritas kami dalam menjaga kerahasiaan data dan keamanan transaksi didukung oleh sistem keamanan Doku.
-                                        </p>
-                                    </div>
-    
-                    <div className="ask-content3">
-                                        <p>Q : Apakah Modestravel Menjual Paket Umrah Secara Langsung?</p>
-                                    </div>  
-                                    
-                                    <div  className="ask-content2">
-                                        <p>A : Modestravel tidak menyediakan pembelian paket umrah secara langsung (offline). Segala jenis paket perjalanan yang tersedia di Platform kami merupakan milik partner Umrahajj yang memasarkan produk mereka melalui Umrahajj.co dan Umrahajj menyediakan pembelian secara online melalui website Umrahajj.co dan juga melalui UH Agent.</p>
-                                    </div>
-    
-                                    <div className="ask-content3">
-                                        <p>Q : Umrahajj Agent</p>
-                                    </div>  
-                                        
-                                    <div  className="ask-content2">
-                                        <p>A : Bagaimana caranya saya bisa menjadi Modestravel Agent?
-                                        Yang harus Anda lakukan adalah klik pada ‘Create Account’ link pada halaman utama kami dan silahkan mengisi biodata lengkap Anda. Setelah Anda mengkonfirmasi account Anda, Anda akan mendapatkan informasi mengenai waktu, tempat dan materi training untuk menjadi UH Agent dengan segala keuntungannya tanpa dipungut biaya apapun.
-                                        </p>
-                                    </div>
-    
-                                    <div className="ask-content3">
-                                        <p>Q : Pembatalan/Perubahan Data Cancellation/Pembatalan, Refund, Pengubahan Jadwal dan Pengubahan Nama Pemesan</p>
-                                    </div>  
-                                            
-                                    <div  className="ask-content2">
-                                        <p>A : <b>Bagaimana cara membatalkan paket Umrah yang sudah saya pesan?</b>
-                                        <br/>
-                                            Anda dapat melakukan pembatalan paket Umrah dengan menghubungi call center Modestravel.com dengan tetap memperhatikan syarat dan ketentuan pembatalan paket Umrah dari PPIU bersangkutan.
-                                        <br/>
-                                        <b>Bagaimana cara menghubungi Modestravel.com?</b>
-                                        <br/>
-                                        Untuk pertanyaan yang belum terjawab di panduan pemakaian maupun FAQ ini, Anda bisa menghubungi Modestravel melalui berbagai jalur komunikasi resmi kami, baik melalui email di .......@Umrahajj.co maupun dengan cara menelepon kami, ke nomor ………………………. Untuk informasi lebih Lengkap, anda dapat melihat list kontak yang tersedia di fitur Hubungi Kami.</p>
-                                    </div>
+                                   
         
                                 </div>
     
