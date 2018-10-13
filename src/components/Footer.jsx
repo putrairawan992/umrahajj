@@ -48,7 +48,7 @@ class Footer extends Component {
                 <ul className="menu">
                 <li className="menu22">
                 <NavLink tag={Link} to="/home">
-                    Modestravel
+                    About
                 </NavLink>
                 </li>
                 <li>
@@ -63,7 +63,7 @@ class Footer extends Component {
                 </li>
                 <li>
                   <NavLink tag={Link} to="/aturanpenggunaan">
-                   Rules of Use
+                  Term of use
                   </NavLink>
                 </li>
                 <li>
@@ -79,7 +79,7 @@ class Footer extends Component {
 							<ul className="menu">
               <li className="menu22">
                   <NavLink  tag={Link} to="#">
-                  Partner
+                  User
                   </NavLink>
                 </li>
                 <li>
@@ -105,17 +105,12 @@ class Footer extends Component {
 									<ul className="menu">
                   <li className="menu22">
                   <NavLink  tag={Link} to="howtobepartner">
-                  Partner
+                  User
                   </NavLink>
                 </li>
                 <li>
                 <NavLink  tag={Link} to="/carabergabung">
                 How to join
-                </NavLink>
-                </li>
-                <li>
-                <NavLink  tag={Link} to="/caramemasang">
-                How to install the package
                 </NavLink>
                 </li>
                 <li>

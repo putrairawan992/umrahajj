@@ -265,6 +265,10 @@ margin-left: -33px;
   margin-right: 0px !important;
 }
 
+.loginuser .loginuser1 {
+  font-size: 8px;
+}
+
 .content-home-text {
   text-align: center;
   margin-top: 4.2em;
@@ -328,7 +332,7 @@ margin-top: 12em;
 
 .navbar-inverse {
 background-color: rgba(225, 229, 232, 0.38);
-height: 30vh !important;
+height: 17vh !important;
 }
 
 .slider-content-home .carousel-control-next, .slider-content-home .carousel-control-prev {
@@ -347,7 +351,7 @@ height: 30vh !important;
 
 @media screen and (min-width: 377px) and (max-width: 549px ){
   .navbar-inverse {
-    height: 30vh !important;
+    height: 17vh !important;
   }
 
 .device2 {
@@ -559,15 +563,9 @@ width: 100%;
     background-image: unset !important;
 }
 
-  #wrapper3 {
-    position: unset !important;
-    z-index: unset !important;
-  }
-
-  #wrapper2 {
-    position: unset !important;
-    z-index: unset !important;
-  }
+img.img-responsive.googleplay {
+  max-width: 40% !important;
+}
 
 }
 
@@ -730,10 +728,6 @@ width: 100%;
   background-size: cover;
   background-repeat: no-repeat;
   margin-top: 15px;
-}
-
-.menufirst1 .menu22 img {
- width: 120px;
 }
 
 .footer .menufirst1  p {
@@ -2333,7 +2327,7 @@ padding-bottom: 5px;
         /* Style for "Loreme Ips" */
       color: #4e5050;
       font-family: 'Gotham';
-      font-size: 49px;
+      font-size: 30px;
       font-weight: 400;
     }
     
@@ -2366,8 +2360,6 @@ padding-bottom: 5px;
       background-image: url("../images/Rectangle_324.png");
       background-position: top;
       background-repeat: no-repeat;
-      z-index: 1;
-      position: absolute;
     }
     /* STYLE WRAPPER END */
     
@@ -2515,8 +2507,6 @@ padding-bottom: 5px;
       background-position: top;
       background-repeat: no-repeat;
       background-size: contain;
-      position: absolute;
-      z-index: 1;
     }
     /* STYLE WRAPPER END */
     
@@ -2620,7 +2610,9 @@ padding-bottom: 5px;
         box-shadow: 3px 5px 7px rgba(0, 0, 0, 0.22);
         border-radius: 8px;
         background-color: #26b9cb;
-        margin-left: 85px;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
         color: white;
         margin-top: 0px;
         font-size: 18px;
