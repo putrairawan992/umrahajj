@@ -34,7 +34,7 @@ class Caramenjual extends React.Component {
                  className={classnames({ active: this.state.activeTab === '3' })}
                  onClick={() => { this.toggle('3'); }}
                >
-                 Cara Bergabung
+                 Become a partner
                </NavLink>
              </NavItem>
              <NavItem>
@@ -42,7 +42,7 @@ class Caramenjual extends React.Component {
                  className={classnames({ active: this.state.activeTab === '1' })}
                  onClick={() => { this.toggle('1'); }}
                >
-                 Cara Memasang Paket
+                 How to use partner’s dashboard
                </NavLink>
              </NavItem>
              <NavItem>
@@ -50,7 +50,7 @@ class Caramenjual extends React.Component {
                  className={classnames({ active: this.state.activeTab === '2' })}
                  onClick={() => { this.toggle('2'); }}
                >
-                 Cara Menjual
+                How to sell
                </NavLink>
              </NavItem>
            </Nav>
@@ -59,10 +59,9 @@ class Caramenjual extends React.Component {
                <Row>
                    <Col md="12">
                        <div className="aturan-pengguna carabergabung">
-                           <h3>Cara Bergabung</h3>
-                               <p>Lorem ipsum dolor sit amet, quo ne idque viderer epicuri. Ex sed saepe argumentum, nibh accumsan ut vis, sed iudicabit ullamcorper no. Intellegat accommodare philosophia eos cu. At ius nulla elitr. At laudem tibique mea, ea modo imperdiet eum.
-                               Libris nostrud te vix. Inani iisque recusabo eu vim, habeo laoreet at vix. Eam tractatos ullamcorper id, nominavi vivendum adolescens ne ius, at labores invidunt sed. Est virtute officiis eu, ei nibh interpretaris vix.</p>
-                       <Row className="cara-bergabung1">
+                           <h3>Become a partner</h3>
+                           <p>To join as our partner, visit the following link:<a href="https://partner.Modestravel.co/#/?signup=home">https://partner.Modestravel.co/#/?signup=home</a> After directed to the registration page, simply fill in the form, by key in your e-mail, travel name, PIC name and telephone number. Check your email and follow the next steps. We have made a step-by-step guide on how to register as our partner, it can be accessed via <a href="http://bit.ly/2n6vaYv.">http://bit.ly/2n6vaYv.</a></p>
+                       {/* <Row className="cara-bergabung1">
                        <Col md="3">       
 
                        <div className="cara-bergabung">
@@ -104,7 +103,7 @@ class Caramenjual extends React.Component {
                            <p>Mulai upload Paket anda dan jual</p>
                        </div>
                        </Col> 
-                       </Row>
+                       </Row> */}
                                    
                        </div>
 
@@ -115,9 +114,10 @@ class Caramenjual extends React.Component {
                <Row>
                <ScrollToTopOnMount/>
                    <Col md="12" className="caramemasang">
-                       <h3>Cara Memasang Paket</h3>
-                           <p>Lorem ipsum dolor sit amet, quo ne idque viderer epicuri. Ex sed saepe argumentum, nibh accumsan ut vis, sed iudicabit ullamcorper no. Intellegat accommodare philosophia eos cu. At ius nulla elitr. At laudem tibique mea, ea modo imperdiet eum.</p>
-                           <img src={require("../images/pineapple.jpg")}/>
+                       <h3>How to use partner’s dashboard</h3>
+                           <p>After you successfully join as a partner. You will be given an access to Modestravel’s partner dashboard as a service provider for Umrah and Hajj packages. In the dashboard you will be advised to start completing your travel profile information such as License, Logo, Branch office address, and things related to your travel information.</p>
+                           <p>The dashboard will guide you to add your travel packages. On this page you will be directed to enter information regarding your travel packages. Starting with the package names, duration, time of departure & return, and all other information regarding the facilities provided in your packages. Then there is also the next tab to enter the image / icon that represents your travel package. Please note that the last step you need to do is to click save button then later the status will change to pending before getting verified by Modestravel team. </p>
+                           {/* <img src={require("../images/pineapple.jpg")}/>
                            <b className="nomor-caramemasang">01</b><br/>
                            <b>Headline</b>
                            <p>Lorem ipsum dolor sit amet, quo ne idque viderer epicuri. Ex sed saepe argumentum, nibh accumsan ut vis, sed iudicabit ullamcorper no. Intellegat accommodare philosophia eos cu. At ius nulla elitr. At laudem tibique mea, ea modo imperdiet eum.</p>
@@ -133,7 +133,7 @@ class Caramenjual extends React.Component {
                            <b className="nomor-caramemasang">03</b><br/>
                            <b>Headline</b>
                            <p>Lorem ipsum dolor sit amet, quo ne idque viderer epicuri. Ex sed saepe argumentum, nibh accumsan ut vis, sed iudicabit ullamcorper no. Intellegat accommodare philosophia eos cu. At ius nulla elitr. At laudem tibique mea, ea modo imperdiet eum.</p>
-           
+            */}
            
                  </Col>
                </Row>
@@ -144,16 +144,16 @@ class Caramenjual extends React.Component {
                        <div className="cara-menjual">
                        
                            <div className="media">
-                               <div className="media-left">
+                               {/* <div className="media-left">
                                <img src={require("../images/pineapple.jpg")}/>
-                               </div>
+                               </div> */}
                                <div className="media-body">
-                               <h4 className="media-heading">Headline</h4>
-                               <p>Lorem ipsum dolor sit amet, quo ne idque viderer epicuri. Ex sed saepe argumentum, nibh accumsan ut vis, sed iudicabit ullamcorper no. Intellegat accommodare philosophia eos cu. At ius nulla elitr. At laudem tibique mea, ea modo imperdiet eum.</p>
+                               <h4 className="media-heading">How to sell</h4>
+                               <p>To start selling / offering your travel package services, the travel package with pending status will be activated by the Modestravel party for a maximum of 1x24 hours before getting published to Modestravel platform. After the travel package has been published within the platform, don't forget to activate the sharing feature on your package link and use that service to integrated with your travel.</p>
                                </div>
                            </div>
 
-                           <div className="media">
+                           {/* <div className="media">
                                <div className="media-body media-body2">
                                    <h4 className="media-heading media-heading2">Headline</h4>
                                        <p>Lorem ipsum dolor sit amet, quo ne idque viderer epicuri. Ex sed saepe argumentum, nibh accumsan ut vis, sed iudicabit ullamcorper no. Intellegat accommodare philosophia eos cu. At ius nulla elitr. At laudem tibique mea, ea modo imperdiet eum.</p>
@@ -161,18 +161,9 @@ class Caramenjual extends React.Component {
                                <div class="media-right">
                                    <img src={require("../images/pineapple.jpg")}/>
                                </div>
-                           </div>
+                           </div> */}
 
-                           <div className="media">
-                               <div className="media-left">
-                               <img src={require("../images/pineapple.jpg")}/>
-                               </div>
-                               <div className="media-body">
-                               <h4 className="media-heading">Headline</h4>
-                               <p>Lorem ipsum dolor sit amet, quo ne idque viderer epicuri. Ex sed saepe argumentum, nibh accumsan ut vis, sed iudicabit ullamcorper no. Intellegat accommodare philosophia eos cu. At ius nulla elitr. At laudem tibique mea, ea modo imperdiet eum.</p>
-                               </div>
-                           </div>
-                       
+                           
                        </div>
    
                  

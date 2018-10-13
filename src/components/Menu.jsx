@@ -61,12 +61,7 @@ export default ({ close }) => (
                   <NavLink onClick={close} tag={Link} to="/carabergabung">
                   How to join
                   </NavLink>
-                  </li>  
-                  <li>
-                  <NavLink onClick={close} tag={Link} to="/caramemasang">
-                  How to install the package
-                  </NavLink>
-                  </li>  
+                  </li>   
                   <li>
                   <NavLink onClick={close} tag={Link} to="/caramenjual">
                   How to sell
