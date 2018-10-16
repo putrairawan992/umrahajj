@@ -104,7 +104,7 @@ class Loginuser extends Component {
         <Row>
             <Col lg="8" md="8" xs="12" sm="8">
                 <h1>Hello,</h1>
-                    <b className="loginuser1">Assalamwalaikum.Wr.Wb</b>
+                    <b className="loginuser1">Assalamualaikum.Wr.Wb</b>
                         <p className="loginuser2"></p>
                 <hr/>
             </Col>

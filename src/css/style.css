@@ -435,10 +435,14 @@ margin-top: 55px;
 margin-left: 14px;
 }
 
-
 .carousel-cell22 img{
 height: 300px;
 width: 100%;
+}
+
+.carousel-cell22 {
+  height: 300px;
+  width: 300px;
 }
 
 .homepage-instagram .divider .satu {
@@ -745,6 +749,7 @@ img.img-responsive.googleplay {
 
 .row.menufirst77 {
   margin-top: 75px;
+  text-align: center;
 }
 
 .footer .menu {

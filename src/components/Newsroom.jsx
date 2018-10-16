@@ -69,7 +69,7 @@ class Newsroom extends React.Component {
 
 		if(this.state.posts != null) {
 			cards = posts.map(post => {
-        const imageUrl = post.featured_media.source_url;
+        const imageUrl = post.better_featured_image.source_url;
 				const imageCover = {
 					background: `url(${imageUrl})`,
 					"background-size": "cover",
@@ -101,20 +101,25 @@ class Newsroom extends React.Component {
            <Col md="12" lg="12" xs="12">
 
           <div className="homepage-newsroom hidden-xs">
-          <Col lg="4" md="4" sm="4" xs="12" className="content-homepage-newsroom-text">      
-                      <b>NEWS</b><b> ROOM</b> 
-                        <hr className="garis_homepagenewsroom"/>
-                    </Col>
+            <Col lg="4" md="4" sm="4" xs="12" className="content-homepage-newsroom-text">      
+              <b>NEWS</b>
+                <b> ROOM</b> 
+                  <hr className="garis_homepagenewsroom"/>
+            </Col>
               <Slider {...settings}>
-              {cards}
+                {cards}
               </Slider>
-              <NavLink className="navbar-brand2" href="http://modestravel.com/blog" target="blank"><Button type="Button" className="btn newsroom-btn">see all</Button></NavLink>
+              <NavLink className="navbar-brand2" href="http://modestravel.com/blog" target="blank">
+                <Button type="Button" className="btn newsroom-btn">see all</Button>
+                  </NavLink>
             </div>
     
               <div className="newsroom-content1 homepage-newsroom hidden-lg hidden-md hidden-sm">
                 <h3>Newsroom</h3>
                   {cards}
-                  <NavLink className="navbar-brand2" href="http://modestravel.com/blog" target="blank"><Button type="Button" className="btn newsroom-btn">see all</Button></NavLink>
+                  <NavLink className="navbar-brand2" href="http://modestravel.com/blog" target="blank">
+                    <Button type="Button" className="btn newsroom-btn">see all</Button>
+                      </NavLink>
               </div>
         
               </Col> 
