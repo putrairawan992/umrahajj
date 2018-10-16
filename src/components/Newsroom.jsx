@@ -69,7 +69,11 @@ class Newsroom extends React.Component {
 
 		if(this.state.posts != null) {
 			cards = posts.map(post => {
+<<<<<<< HEAD
         const imageUrl = post.better_featured_image.source_url;
+=======
+        const imageUrl = post.featured_media.source_url;
+>>>>>>> 4788c845ca2a81884d0deaac7a083c59bde27899
 				const imageCover = {
 					background: `url(${imageUrl})`,
 					"background-size": "cover",
