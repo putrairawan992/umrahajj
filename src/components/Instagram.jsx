@@ -92,7 +92,7 @@ class Instagram extends React.Component {
                   
              
             </Row>
-            <NavLink className="navbar-brand2" href="https://www.instagram.com/umrahajj/" target="blank"><Button type="Button" className="btn instagram-btn">see more</Button></NavLink>
+            <NavLink className="navbar-brand2" href="https://www.instagram.com/modestravelofficial/" target="blank"><Button type="Button" className="btn instagram-btn">see more</Button></NavLink>
         </Container>
       );
     }

@@ -69,7 +69,7 @@ class Newsroom extends React.Component {
 
 		if(this.state.posts != null) {
 			cards = posts.map(post => {
-        const imageUrl = post.better_featured_image.source_url;
+        const imageUrl = (post.better_featured_image.source_url !== null) ? post.better_featured_image.source_url : './another/image/as/placeholder.jpg';
 				const imageCover = {
 					background: `url(${imageUrl})`,
 					"background-size": "cover",
@@ -109,7 +109,7 @@ class Newsroom extends React.Component {
               <Slider {...settings}>
                 {cards}
               </Slider>
-              <NavLink className="navbar-brand2" href="http://modestravel.com/blog" target="blank">
+              <NavLink className="navbar-brand2" href="http://blog.modestravel.com" target="blank">
                 <Button type="Button" className="btn newsroom-btn">see all</Button>
                   </NavLink>
             </div>
@@ -117,7 +117,7 @@ class Newsroom extends React.Component {
               <div className="newsroom-content1 homepage-newsroom hidden-lg hidden-md hidden-sm">
                 <h3>Newsroom</h3>
                   {cards}
-                  <NavLink className="navbar-brand2" href="http://modestravel.com/blog" target="blank">
+                  <NavLink className="navbar-brand2" href="http://blog.modestravel.com" target="blank">
                     <Button type="Button" className="btn newsroom-btn">see all</Button>
                       </NavLink>
               </div>

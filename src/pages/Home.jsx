@@ -3,7 +3,7 @@ import {
   Carousel,
   CarouselItem,
   CarouselIndicators,
-  CarouselControl
+  CarouselControl,CarouselCaption
 } from 'reactstrap';
 import {Container, Row, Col} from 'reactstrap';
 import '../css/style.css';
@@ -12,6 +12,7 @@ import Smartphoneslide from '../components/Smartphoneslide';
 import Instagram from '../components/Instagram';
 import Newsroom from '../components/Newsroom.jsx';
 import Smartphoneslide2 from '../components/Smartphoneslide2';
+
 
 
 class Home extends Component {
@@ -104,7 +105,6 @@ class Home extends Component {
     return (
 
         <div className="content-home">
-
               <Container fluid>
                   <Row>
                     <div className="slider-content-home">
@@ -127,6 +127,8 @@ class Home extends Component {
                     </div>
                   </Row>
               </Container>
+   
+
 
               <div className="content-home-0 hidden-xs hidden-sm"></div>
 
