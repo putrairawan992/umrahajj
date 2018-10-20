@@ -150,7 +150,8 @@ class Footer extends Component {
               </div> */}
             <div className="download-icon">
               <b>Download Modestravel Apps</b>
-                <img src={require("../images/googleplay.png")} className=" img-responsive googleplay" />
+                <a href="https://play.google.com/store/apps/details?id=com.umrahajj.dev.umrahajj" target="_blank">
+                  <img src={require("../images/googleplay.png")} className=" img-responsive googleplay" /></a>
                   <img src={require("../images/iosstore.png")} className=" img-responsive iosstore" />
                     <br/>
                       <br/>
