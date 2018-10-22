@@ -117,7 +117,6 @@ class Tombolmenu extends React.Component {
                   trigger={open =>
                     <BurgerIcon open={open} />}
                 >
-
                   {close => <Menu close={close} />}
                 </Popup>
               </div>
